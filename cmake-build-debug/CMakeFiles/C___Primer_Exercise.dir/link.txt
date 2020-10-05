@@ -1,0 +1,3 @@
+D:\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\C___Primer_Exercise.dir/objects.a
+D:\MinGW64\mingw64\bin\ar.exe cr CMakeFiles\C___Primer_Exercise.dir/objects.a @CMakeFiles\C___Primer_Exercise.dir\objects1.rsp
+D:\MinGW64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\C___Primer_Exercise.dir/objects.a -Wl,--no-whole-archive  -o C___Primer_Exercise.exe -Wl,--out-implib,libC___Primer_Exercise.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\C___Primer_Exercise.dir\linklibs.rsp
