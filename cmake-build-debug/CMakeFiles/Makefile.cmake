@@ -35,6 +35,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/CLion/bin/cmake/win/share/cmake-3.17/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
   "../Chapter 10/CMakeLists.txt"
+  "../Chapter 11/CMakeLists.txt"
   "../Chapter 5/CMakeLists.txt"
   "../Chapter 6/CMakeLists.txt"
   "../Chapter 7/CMakeLists.txt"
@@ -61,6 +62,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Chapter 8/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Chapter 9/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Chapter 10/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter 11/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -149,4 +151,14 @@ set(CMAKE_DEPEND_INFO_FILES
   "Chapter 10/CMakeFiles/10.34.dir/DependInfo.cmake"
   "Chapter 10/CMakeFiles/10.36.dir/DependInfo.cmake"
   "Chapter 10/CMakeFiles/10.37.dir/DependInfo.cmake"
+  "Chapter 11/CMakeFiles/11.23.dir/DependInfo.cmake"
+  "Chapter 11/CMakeFiles/11.3.dir/DependInfo.cmake"
+  "Chapter 11/CMakeFiles/11.7.dir/DependInfo.cmake"
+  "Chapter 11/CMakeFiles/11.12.dir/DependInfo.cmake"
+  "Chapter 11/CMakeFiles/11.20.dir/DependInfo.cmake"
+  "Chapter 11/CMakeFiles/11.8.dir/DependInfo.cmake"
+  "Chapter 11/CMakeFiles/11.14.dir/DependInfo.cmake"
+  "Chapter 11/CMakeFiles/11.31.dir/DependInfo.cmake"
+  "Chapter 11/CMakeFiles/11.33.dir/DependInfo.cmake"
+  "Chapter 11/CMakeFiles/11.38.dir/DependInfo.cmake"
   )

@@ -5,7 +5,7 @@
 		<Option title="C___Primer_Exercise"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Chapter 10\;CMake Files\Chapter 5\;CMake Files\Chapter 6\;CMake Files\Chapter 7\;CMake Files\Chapter 8\;CMake Files\Chapter 9\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Chapter 10\;CMake Files\Chapter 11\;CMake Files\Chapter 5\;CMake Files\Chapter 6\;CMake Files\Chapter 7\;CMake Files\Chapter 8\;CMake Files\Chapter 9\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug"/>
@@ -3733,6 +3733,446 @@
 					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 10/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="11.23">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.23.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.23"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.23/fast">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.23.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.23/fast"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.3">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.3"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.3/fast">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.3/fast"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.7">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.7"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.7/fast">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.7/fast"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.12">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.12.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.12"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.12/fast">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.12.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.12/fast"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.20">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.20.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.20"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.20/fast">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.20.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.20/fast"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.8">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.8"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.8/fast">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.8/fast"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.14">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.14.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.14"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.14/fast">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.14.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.14/fast"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.31">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.31.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.31"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.31/fast">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.31.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.31/fast"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.33">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.33.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.33"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.33/fast">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.33.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.33/fast"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.38">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.38.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.38"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11.38/fast">
+				<Option output="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/11.38.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:\MinGW64\mingw64\include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 11.38/fast"/>
+					<CompileFile command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 10/10.1.cpp">
 			<Option target="10.1"/>
@@ -3814,6 +4254,36 @@
 		</Unit>
 		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 10/10.9.cpp">
 			<Option target="10.9"/>
+		</Unit>
+		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 11/11.12.cpp">
+			<Option target="11.12"/>
+		</Unit>
+		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 11/11.14.cpp">
+			<Option target="11.14"/>
+		</Unit>
+		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 11/11.20.cpp">
+			<Option target="11.20"/>
+		</Unit>
+		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 11/11.23.cpp">
+			<Option target="11.23"/>
+		</Unit>
+		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 11/11.3.cpp">
+			<Option target="11.3"/>
+		</Unit>
+		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 11/11.31.cpp">
+			<Option target="11.31"/>
+		</Unit>
+		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 11/11.33.cpp">
+			<Option target="11.33"/>
+		</Unit>
+		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 11/11.38.cpp">
+			<Option target="11.38"/>
+		</Unit>
+		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 11/11.7.cpp">
+			<Option target="11.7"/>
+		</Unit>
+		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 11/11.8.cpp">
+			<Option target="11.8"/>
 		</Unit>
 		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 5/5.14.cpp">
 			<Option target="5.14"/>
@@ -3997,6 +4467,9 @@
 		</Unit>
 		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 10/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Chapter 10\"/>
+		</Unit>
+		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter 11\"/>
 		</Unit>
 		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Chapter 5\"/>

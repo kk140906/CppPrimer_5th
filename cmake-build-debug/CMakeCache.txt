@@ -21,6 +21,12 @@ CHAPTER10_BINARY_DIR:STATIC=F:/Desktop/C++ Primer Exercise/cmake-build-debug/Cha
 CHAPTER10_SOURCE_DIR:STATIC=F:/Desktop/C++ Primer Exercise/Chapter 10
 
 //Value Computed by CMake
+CHAPTER11_BINARY_DIR:STATIC=F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 11
+
+//Value Computed by CMake
+CHAPTER11_SOURCE_DIR:STATIC=F:/Desktop/C++ Primer Exercise/Chapter 11
+
+//Value Computed by CMake
 CHAPTER5_BINARY_DIR:STATIC=F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 5
 
 //Value Computed by CMake
@@ -397,7 +403,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

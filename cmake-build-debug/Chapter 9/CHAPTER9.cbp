@@ -5,7 +5,7 @@
 		<Option title="CHAPTER9"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Chapter 10\;CMake Files\Chapter 5\;CMake Files\Chapter 6\;CMake Files\Chapter 7\;CMake Files\Chapter 8\;CMake Files\Chapter 9\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Chapter 10\;CMake Files\Chapter 11\;CMake Files\Chapter 5\;CMake Files\Chapter 6\;CMake Files\Chapter 7\;CMake Files\Chapter 8\;CMake Files\Chapter 9\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="F:/Desktop/C++ Primer Exercise/cmake-build-debug/Chapter 9"/>
@@ -1342,6 +1342,9 @@
 		</Unit>
 		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 10/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Chapter 10\"/>
+		</Unit>
+		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter 11\"/>
 		</Unit>
 		<Unit filename="F:/Desktop/C++ Primer Exercise/Chapter 5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Chapter 5\"/>
