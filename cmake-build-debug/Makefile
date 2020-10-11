@@ -1351,6 +1351,201 @@ C___Primer_Exercise/fast:
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.38.dir\build.make" "Chapter 11/CMakeFiles/11.38.dir/build"
 .PHONY : 11.38/fast
 
+#=============================================================================
+# Target rules for targets named 12.30
+
+# Build rule for target.
+12.30: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.30
+.PHONY : 12.30
+
+# fast build rule for target.
+12.30/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.30.dir\build.make" "Chapter 12/CMakeFiles/12.30.dir/build"
+.PHONY : 12.30/fast
+
+#=============================================================================
+# Target rules for targets named 12.1
+
+# Build rule for target.
+12.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.1
+.PHONY : 12.1
+
+# fast build rule for target.
+12.1/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.1.dir\build.make" "Chapter 12/CMakeFiles/12.1.dir/build"
+.PHONY : 12.1/fast
+
+#=============================================================================
+# Target rules for targets named 12.6
+
+# Build rule for target.
+12.6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.6
+.PHONY : 12.6
+
+# fast build rule for target.
+12.6/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.6.dir\build.make" "Chapter 12/CMakeFiles/12.6.dir/build"
+.PHONY : 12.6/fast
+
+#=============================================================================
+# Target rules for targets named 12.14
+
+# Build rule for target.
+12.14: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.14
+.PHONY : 12.14
+
+# fast build rule for target.
+12.14/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.14.dir\build.make" "Chapter 12/CMakeFiles/12.14.dir/build"
+.PHONY : 12.14/fast
+
+#=============================================================================
+# Target rules for targets named 12.7
+
+# Build rule for target.
+12.7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.7
+.PHONY : 12.7
+
+# fast build rule for target.
+12.7/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.7.dir\build.make" "Chapter 12/CMakeFiles/12.7.dir/build"
+.PHONY : 12.7/fast
+
+#=============================================================================
+# Target rules for targets named 12.23
+
+# Build rule for target.
+12.23: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.23
+.PHONY : 12.23
+
+# fast build rule for target.
+12.23/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.23.dir\build.make" "Chapter 12/CMakeFiles/12.23.dir/build"
+.PHONY : 12.23/fast
+
+#=============================================================================
+# Target rules for targets named 12.16
+
+# Build rule for target.
+12.16: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.16
+.PHONY : 12.16
+
+# fast build rule for target.
+12.16/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.16.dir\build.make" "Chapter 12/CMakeFiles/12.16.dir/build"
+.PHONY : 12.16/fast
+
+#=============================================================================
+# Target rules for targets named 12.19
+
+# Build rule for target.
+12.19: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.19
+.PHONY : 12.19
+
+# fast build rule for target.
+12.19/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.19.dir\build.make" "Chapter 12/CMakeFiles/12.19.dir/build"
+.PHONY : 12.19/fast
+
+#=============================================================================
+# Target rules for targets named 12.22
+
+# Build rule for target.
+12.22: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.22
+.PHONY : 12.22
+
+# fast build rule for target.
+12.22/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.22.dir\build.make" "Chapter 12/CMakeFiles/12.22.dir/build"
+.PHONY : 12.22/fast
+
+#=============================================================================
+# Target rules for targets named 12.24
+
+# Build rule for target.
+12.24: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.24
+.PHONY : 12.24
+
+# fast build rule for target.
+12.24/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.24.dir\build.make" "Chapter 12/CMakeFiles/12.24.dir/build"
+.PHONY : 12.24/fast
+
+#=============================================================================
+# Target rules for targets named 12.26
+
+# Build rule for target.
+12.26: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.26
+.PHONY : 12.26
+
+# fast build rule for target.
+12.26/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.26.dir\build.make" "Chapter 12/CMakeFiles/12.26.dir/build"
+.PHONY : 12.26/fast
+
+#=============================================================================
+# Target rules for targets named 12.27
+
+# Build rule for target.
+12.27: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.27
+.PHONY : 12.27
+
+# fast build rule for target.
+12.27/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.27.dir\build.make" "Chapter 12/CMakeFiles/12.27.dir/build"
+.PHONY : 12.27/fast
+
+#=============================================================================
+# Target rules for targets named 12.28
+
+# Build rule for target.
+12.28: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.28
+.PHONY : 12.28
+
+# fast build rule for target.
+12.28/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.28.dir\build.make" "Chapter 12/CMakeFiles/12.28.dir/build"
+.PHONY : 12.28/fast
+
+#=============================================================================
+# Target rules for targets named 12.32
+
+# Build rule for target.
+12.32: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.32
+.PHONY : 12.32
+
+# fast build rule for target.
+12.32/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.32.dir\build.make" "Chapter 12/CMakeFiles/12.32.dir/build"
+.PHONY : 12.32/fast
+
+#=============================================================================
+# Target rules for targets named 12.33
+
+# Build rule for target.
+12.33: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12.33
+.PHONY : 12.33
+
+# fast build rule for target.
+12.33/fast:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.33.dir\build.make" "Chapter 12/CMakeFiles/12.33.dir/build"
+.PHONY : 12.33/fast
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -1423,6 +1618,21 @@ help:
 	@echo ... 11.38
 	@echo ... 11.7
 	@echo ... 11.8
+	@echo ... 12.1
+	@echo ... 12.14
+	@echo ... 12.16
+	@echo ... 12.19
+	@echo ... 12.22
+	@echo ... 12.23
+	@echo ... 12.24
+	@echo ... 12.26
+	@echo ... 12.27
+	@echo ... 12.28
+	@echo ... 12.30
+	@echo ... 12.32
+	@echo ... 12.33
+	@echo ... 12.6
+	@echo ... 12.7
 	@echo ... 5.14
 	@echo ... 5.19
 	@echo ... 5.20

@@ -80,6 +80,7 @@ all: Chapter\ 8/all
 all: Chapter\ 9/all
 all: Chapter\ 10/all
 all: Chapter\ 11/all
+all: Chapter\ 12/all
 
 .PHONY : all
 
@@ -91,6 +92,7 @@ preinstall: Chapter\ 8/preinstall
 preinstall: Chapter\ 9/preinstall
 preinstall: Chapter\ 10/preinstall
 preinstall: Chapter\ 11/preinstall
+preinstall: Chapter\ 12/preinstall
 
 .PHONY : preinstall
 
@@ -103,6 +105,7 @@ clean: Chapter\ 8/clean
 clean: Chapter\ 9/clean
 clean: Chapter\ 10/clean
 clean: Chapter\ 11/clean
+clean: Chapter\ 12/clean
 
 .PHONY : clean
 
@@ -211,6 +214,52 @@ Chapter\ 11/clean: Chapter\ 11/CMakeFiles/11.33.dir/clean
 Chapter\ 11/clean: Chapter\ 11/CMakeFiles/11.38.dir/clean
 
 .PHONY : Chapter\ 11/clean
+
+#=============================================================================
+# Directory level rules for directory Chapter\ 12
+
+# Recursive "all" directory target.
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.30.dir/all
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.1.dir/all
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.6.dir/all
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.14.dir/all
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.7.dir/all
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.23.dir/all
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.16.dir/all
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.19.dir/all
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.22.dir/all
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.24.dir/all
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.26.dir/all
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.27.dir/all
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.28.dir/all
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.32.dir/all
+Chapter\ 12/all: Chapter\ 12/CMakeFiles/12.33.dir/all
+
+.PHONY : Chapter\ 12/all
+
+# Recursive "preinstall" directory target.
+Chapter\ 12/preinstall:
+
+.PHONY : Chapter\ 12/preinstall
+
+# Recursive "clean" directory target.
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.30.dir/clean
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.1.dir/clean
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.6.dir/clean
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.14.dir/clean
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.7.dir/clean
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.23.dir/clean
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.16.dir/clean
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.19.dir/clean
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.22.dir/clean
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.24.dir/clean
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.26.dir/clean
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.27.dir/clean
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.28.dir/clean
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.32.dir/clean
+Chapter\ 12/clean: Chapter\ 12/CMakeFiles/12.33.dir/clean
+
+.PHONY : Chapter\ 12/clean
 
 #=============================================================================
 # Directory level rules for directory Chapter\ 5
@@ -411,12 +460,12 @@ Chapter\ 9/clean: Chapter\ 9/CMakeFiles/9.52.dir/clean
 CMakeFiles/C___Primer_Exercise.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C___Primer_Exercise.dir\build.make CMakeFiles/C___Primer_Exercise.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C___Primer_Exercise.dir\build.make CMakeFiles/C___Primer_Exercise.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=99,100 "Built target C___Primer_Exercise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=100 "Built target C___Primer_Exercise"
 .PHONY : CMakeFiles/C___Primer_Exercise.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/C___Primer_Exercise.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/C___Primer_Exercise.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/C___Primer_Exercise.dir/rule
@@ -438,7 +487,7 @@ CMakeFiles/C___Primer_Exercise.dir/clean:
 Chapter\ 5/CMakeFiles/5.14.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 5\CMakeFiles\5.14.dir\build.make" "Chapter 5/CMakeFiles/5.14.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 5\CMakeFiles\5.14.dir\build.make" "Chapter 5/CMakeFiles/5.14.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=40 "Built target 5.14"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=48 "Built target 5.14"
 .PHONY : Chapter\ 5/CMakeFiles/5.14.dir/all
 
 # Build rule for subdir invocation for target.
@@ -465,7 +514,7 @@ Chapter\ 5/CMakeFiles/5.14.dir/clean:
 Chapter\ 5/CMakeFiles/5.20.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 5\CMakeFiles\5.20.dir\build.make" "Chapter 5/CMakeFiles/5.20.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 5\CMakeFiles\5.20.dir\build.make" "Chapter 5/CMakeFiles/5.20.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=42 "Built target 5.20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=50 "Built target 5.20"
 .PHONY : Chapter\ 5/CMakeFiles/5.20.dir/all
 
 # Build rule for subdir invocation for target.
@@ -492,7 +541,7 @@ Chapter\ 5/CMakeFiles/5.20.dir/clean:
 Chapter\ 5/CMakeFiles/5.19.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 5\CMakeFiles\5.19.dir\build.make" "Chapter 5/CMakeFiles/5.19.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 5\CMakeFiles\5.19.dir\build.make" "Chapter 5/CMakeFiles/5.19.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=41 "Built target 5.19"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=49 "Built target 5.19"
 .PHONY : Chapter\ 5/CMakeFiles/5.19.dir/all
 
 # Build rule for subdir invocation for target.
@@ -519,7 +568,7 @@ Chapter\ 5/CMakeFiles/5.19.dir/clean:
 Chapter\ 5/CMakeFiles/5.21.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 5\CMakeFiles\5.21.dir\build.make" "Chapter 5/CMakeFiles/5.21.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 5\CMakeFiles\5.21.dir\build.make" "Chapter 5/CMakeFiles/5.21.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=43 "Built target 5.21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=51 "Built target 5.21"
 .PHONY : Chapter\ 5/CMakeFiles/5.21.dir/all
 
 # Build rule for subdir invocation for target.
@@ -546,7 +595,7 @@ Chapter\ 5/CMakeFiles/5.21.dir/clean:
 Chapter\ 5/CMakeFiles/5.23.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 5\CMakeFiles\5.23.dir\build.make" "Chapter 5/CMakeFiles/5.23.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 5\CMakeFiles\5.23.dir\build.make" "Chapter 5/CMakeFiles/5.23.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=44 "Built target 5.23"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=52 "Built target 5.23"
 .PHONY : Chapter\ 5/CMakeFiles/5.23.dir/all
 
 # Build rule for subdir invocation for target.
@@ -573,7 +622,7 @@ Chapter\ 5/CMakeFiles/5.23.dir/clean:
 Chapter\ 6/CMakeFiles/6.47.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.47.dir\build.make" "Chapter 6/CMakeFiles/6.47.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.47.dir\build.make" "Chapter 6/CMakeFiles/6.47.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=53 "Built target 6.47"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=59 "Built target 6.47"
 .PHONY : Chapter\ 6/CMakeFiles/6.47.dir/all
 
 # Build rule for subdir invocation for target.
@@ -600,7 +649,7 @@ Chapter\ 6/CMakeFiles/6.47.dir/clean:
 Chapter\ 6/CMakeFiles/6.21.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.21.dir\build.make" "Chapter 6/CMakeFiles/6.21.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.21.dir\build.make" "Chapter 6/CMakeFiles/6.21.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=45 "Built target 6.21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=53 "Built target 6.21"
 .PHONY : Chapter\ 6/CMakeFiles/6.21.dir/all
 
 # Build rule for subdir invocation for target.
@@ -627,7 +676,7 @@ Chapter\ 6/CMakeFiles/6.21.dir/clean:
 Chapter\ 6/CMakeFiles/6.44.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.44.dir\build.make" "Chapter 6/CMakeFiles/6.44.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.44.dir\build.make" "Chapter 6/CMakeFiles/6.44.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=52 "Built target 6.44"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=58 "Built target 6.44"
 .PHONY : Chapter\ 6/CMakeFiles/6.44.dir/all
 
 # Build rule for subdir invocation for target.
@@ -654,7 +703,7 @@ Chapter\ 6/CMakeFiles/6.44.dir/clean:
 Chapter\ 6/CMakeFiles/6.22.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.22.dir\build.make" "Chapter 6/CMakeFiles/6.22.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.22.dir\build.make" "Chapter 6/CMakeFiles/6.22.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=46 "Built target 6.22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=54 "Built target 6.22"
 .PHONY : Chapter\ 6/CMakeFiles/6.22.dir/all
 
 # Build rule for subdir invocation for target.
@@ -681,7 +730,7 @@ Chapter\ 6/CMakeFiles/6.22.dir/clean:
 Chapter\ 6/CMakeFiles/6.25.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.25.dir\build.make" "Chapter 6/CMakeFiles/6.25.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.25.dir\build.make" "Chapter 6/CMakeFiles/6.25.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=47 "Built target 6.25"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=55 "Built target 6.25"
 .PHONY : Chapter\ 6/CMakeFiles/6.25.dir/all
 
 # Build rule for subdir invocation for target.
@@ -708,12 +757,12 @@ Chapter\ 6/CMakeFiles/6.25.dir/clean:
 Chapter\ 6/CMakeFiles/6.26.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.26.dir\build.make" "Chapter 6/CMakeFiles/6.26.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.26.dir\build.make" "Chapter 6/CMakeFiles/6.26.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=48 "Built target 6.26"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num= "Built target 6.26"
 .PHONY : Chapter\ 6/CMakeFiles/6.26.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter\ 6/CMakeFiles/6.26.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 6/CMakeFiles/6.26.dir/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 .PHONY : Chapter\ 6/CMakeFiles/6.26.dir/rule
@@ -735,12 +784,12 @@ Chapter\ 6/CMakeFiles/6.26.dir/clean:
 Chapter\ 6/CMakeFiles/6.27.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.27.dir\build.make" "Chapter 6/CMakeFiles/6.27.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.27.dir\build.make" "Chapter 6/CMakeFiles/6.27.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=49,50 "Built target 6.27"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=56 "Built target 6.27"
 .PHONY : Chapter\ 6/CMakeFiles/6.27.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter\ 6/CMakeFiles/6.27.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 6/CMakeFiles/6.27.dir/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 .PHONY : Chapter\ 6/CMakeFiles/6.27.dir/rule
@@ -762,7 +811,7 @@ Chapter\ 6/CMakeFiles/6.27.dir/clean:
 Chapter\ 6/CMakeFiles/6.33.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.33.dir\build.make" "Chapter 6/CMakeFiles/6.33.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.33.dir\build.make" "Chapter 6/CMakeFiles/6.33.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=51 "Built target 6.33"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=57 "Built target 6.33"
 .PHONY : Chapter\ 6/CMakeFiles/6.33.dir/all
 
 # Build rule for subdir invocation for target.
@@ -789,7 +838,7 @@ Chapter\ 6/CMakeFiles/6.33.dir/clean:
 Chapter\ 6/CMakeFiles/6.51.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.51.dir\build.make" "Chapter 6/CMakeFiles/6.51.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.51.dir\build.make" "Chapter 6/CMakeFiles/6.51.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=54 "Built target 6.51"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=60 "Built target 6.51"
 .PHONY : Chapter\ 6/CMakeFiles/6.51.dir/all
 
 # Build rule for subdir invocation for target.
@@ -816,7 +865,7 @@ Chapter\ 6/CMakeFiles/6.51.dir/clean:
 Chapter\ 6/CMakeFiles/6.54.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.54.dir\build.make" "Chapter 6/CMakeFiles/6.54.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 6\CMakeFiles\6.54.dir\build.make" "Chapter 6/CMakeFiles/6.54.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=55 "Built target 6.54"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=61 "Built target 6.54"
 .PHONY : Chapter\ 6/CMakeFiles/6.54.dir/all
 
 # Build rule for subdir invocation for target.
@@ -843,12 +892,12 @@ Chapter\ 6/CMakeFiles/6.54.dir/clean:
 Chapter\ 7/CMakeFiles/7.4.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 7\CMakeFiles\7.4.dir\build.make" "Chapter 7/CMakeFiles/7.4.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 7\CMakeFiles\7.4.dir\build.make" "Chapter 7/CMakeFiles/7.4.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=61 "Built target 7.4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num= "Built target 7.4"
 .PHONY : Chapter\ 7/CMakeFiles/7.4.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter\ 7/CMakeFiles/7.4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 7/CMakeFiles/7.4.dir/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 .PHONY : Chapter\ 7/CMakeFiles/7.4.dir/rule
@@ -870,7 +919,7 @@ Chapter\ 7/CMakeFiles/7.4.dir/clean:
 Chapter\ 7/CMakeFiles/7.22.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 7\CMakeFiles\7.22.dir\build.make" "Chapter 7/CMakeFiles/7.22.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 7\CMakeFiles\7.22.dir\build.make" "Chapter 7/CMakeFiles/7.22.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=57 "Built target 7.22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=63 "Built target 7.22"
 .PHONY : Chapter\ 7/CMakeFiles/7.22.dir/all
 
 # Build rule for subdir invocation for target.
@@ -897,7 +946,7 @@ Chapter\ 7/CMakeFiles/7.22.dir/clean:
 Chapter\ 7/CMakeFiles/7.27.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 7\CMakeFiles\7.27.dir\build.make" "Chapter 7/CMakeFiles/7.27.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 7\CMakeFiles\7.27.dir\build.make" "Chapter 7/CMakeFiles/7.27.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=59 "Built target 7.27"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=65 "Built target 7.27"
 .PHONY : Chapter\ 7/CMakeFiles/7.27.dir/all
 
 # Build rule for subdir invocation for target.
@@ -924,7 +973,7 @@ Chapter\ 7/CMakeFiles/7.27.dir/clean:
 Chapter\ 7/CMakeFiles/7.9.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 7\CMakeFiles\7.9.dir\build.make" "Chapter 7/CMakeFiles/7.9.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 7\CMakeFiles\7.9.dir\build.make" "Chapter 7/CMakeFiles/7.9.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=62 "Built target 7.9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=67 "Built target 7.9"
 .PHONY : Chapter\ 7/CMakeFiles/7.9.dir/all
 
 # Build rule for subdir invocation for target.
@@ -951,7 +1000,7 @@ Chapter\ 7/CMakeFiles/7.9.dir/clean:
 Chapter\ 7/CMakeFiles/7.15.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 7\CMakeFiles\7.15.dir\build.make" "Chapter 7/CMakeFiles/7.15.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 7\CMakeFiles\7.15.dir\build.make" "Chapter 7/CMakeFiles/7.15.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=56 "Built target 7.15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=62 "Built target 7.15"
 .PHONY : Chapter\ 7/CMakeFiles/7.15.dir/all
 
 # Build rule for subdir invocation for target.
@@ -978,7 +1027,7 @@ Chapter\ 7/CMakeFiles/7.15.dir/clean:
 Chapter\ 7/CMakeFiles/7.23.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 7\CMakeFiles\7.23.dir\build.make" "Chapter 7/CMakeFiles/7.23.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 7\CMakeFiles\7.23.dir\build.make" "Chapter 7/CMakeFiles/7.23.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=58 "Built target 7.23"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=64 "Built target 7.23"
 .PHONY : Chapter\ 7/CMakeFiles/7.23.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1005,7 +1054,7 @@ Chapter\ 7/CMakeFiles/7.23.dir/clean:
 Chapter\ 7/CMakeFiles/7.32.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 7\CMakeFiles\7.32.dir\build.make" "Chapter 7/CMakeFiles/7.32.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 7\CMakeFiles\7.32.dir\build.make" "Chapter 7/CMakeFiles/7.32.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=60 "Built target 7.32"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=66 "Built target 7.32"
 .PHONY : Chapter\ 7/CMakeFiles/7.32.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1032,7 +1081,7 @@ Chapter\ 7/CMakeFiles/7.32.dir/clean:
 Chapter\ 8/CMakeFiles/8.9.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 8\CMakeFiles\8.9.dir\build.make" "Chapter 8/CMakeFiles/8.9.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 8\CMakeFiles\8.9.dir\build.make" "Chapter 8/CMakeFiles/8.9.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=69 "Built target 8.9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=73 "Built target 8.9"
 .PHONY : Chapter\ 8/CMakeFiles/8.9.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1059,7 +1108,7 @@ Chapter\ 8/CMakeFiles/8.9.dir/clean:
 Chapter\ 8/CMakeFiles/8.1.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 8\CMakeFiles\8.1.dir\build.make" "Chapter 8/CMakeFiles/8.1.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 8\CMakeFiles\8.1.dir\build.make" "Chapter 8/CMakeFiles/8.1.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=63 "Built target 8.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=68 "Built target 8.1"
 .PHONY : Chapter\ 8/CMakeFiles/8.1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1086,7 +1135,7 @@ Chapter\ 8/CMakeFiles/8.1.dir/clean:
 Chapter\ 8/CMakeFiles/8.11.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 8\CMakeFiles\8.11.dir\build.make" "Chapter 8/CMakeFiles/8.11.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 8\CMakeFiles\8.11.dir\build.make" "Chapter 8/CMakeFiles/8.11.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=65 "Built target 8.11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=70 "Built target 8.11"
 .PHONY : Chapter\ 8/CMakeFiles/8.11.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1113,12 +1162,12 @@ Chapter\ 8/CMakeFiles/8.11.dir/clean:
 Chapter\ 8/CMakeFiles/8.4.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 8\CMakeFiles\8.4.dir\build.make" "Chapter 8/CMakeFiles/8.4.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 8\CMakeFiles\8.4.dir\build.make" "Chapter 8/CMakeFiles/8.4.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=66,67 "Built target 8.4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=71 "Built target 8.4"
 .PHONY : Chapter\ 8/CMakeFiles/8.4.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter\ 8/CMakeFiles/8.4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 8/CMakeFiles/8.4.dir/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 .PHONY : Chapter\ 8/CMakeFiles/8.4.dir/rule
@@ -1140,7 +1189,7 @@ Chapter\ 8/CMakeFiles/8.4.dir/clean:
 Chapter\ 8/CMakeFiles/8.7.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 8\CMakeFiles\8.7.dir\build.make" "Chapter 8/CMakeFiles/8.7.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 8\CMakeFiles\8.7.dir\build.make" "Chapter 8/CMakeFiles/8.7.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=68 "Built target 8.7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=72 "Built target 8.7"
 .PHONY : Chapter\ 8/CMakeFiles/8.7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1167,7 +1216,7 @@ Chapter\ 8/CMakeFiles/8.7.dir/clean:
 Chapter\ 8/CMakeFiles/8.10.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 8\CMakeFiles\8.10.dir\build.make" "Chapter 8/CMakeFiles/8.10.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 8\CMakeFiles\8.10.dir\build.make" "Chapter 8/CMakeFiles/8.10.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=64 "Built target 8.10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=69 "Built target 8.10"
 .PHONY : Chapter\ 8/CMakeFiles/8.10.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1194,7 +1243,7 @@ Chapter\ 8/CMakeFiles/8.10.dir/clean:
 Chapter\ 9/CMakeFiles/9.44.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.44.dir\build.make" "Chapter 9/CMakeFiles/9.44.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.44.dir\build.make" "Chapter 9/CMakeFiles/9.44.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=91 "Built target 9.44"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=92 "Built target 9.44"
 .PHONY : Chapter\ 9/CMakeFiles/9.44.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1221,7 +1270,7 @@ Chapter\ 9/CMakeFiles/9.44.dir/clean:
 Chapter\ 9/CMakeFiles/9.4.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.4.dir\build.make" "Chapter 9/CMakeFiles/9.4.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.4.dir\build.make" "Chapter 9/CMakeFiles/9.4.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=88 "Built target 9.4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=89 "Built target 9.4"
 .PHONY : Chapter\ 9/CMakeFiles/9.4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1248,7 +1297,7 @@ Chapter\ 9/CMakeFiles/9.4.dir/clean:
 Chapter\ 9/CMakeFiles/9.45.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.45.dir\build.make" "Chapter 9/CMakeFiles/9.45.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.45.dir\build.make" "Chapter 9/CMakeFiles/9.45.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=92 "Built target 9.45"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=93 "Built target 9.45"
 .PHONY : Chapter\ 9/CMakeFiles/9.45.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1275,7 +1324,7 @@ Chapter\ 9/CMakeFiles/9.45.dir/clean:
 Chapter\ 9/CMakeFiles/9.5.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.5.dir\build.make" "Chapter 9/CMakeFiles/9.5.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.5.dir\build.make" "Chapter 9/CMakeFiles/9.5.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=95 "Built target 9.5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=96 "Built target 9.5"
 .PHONY : Chapter\ 9/CMakeFiles/9.5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1302,12 +1351,12 @@ Chapter\ 9/CMakeFiles/9.5.dir/clean:
 Chapter\ 9/CMakeFiles/9.16.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.16.dir\build.make" "Chapter 9/CMakeFiles/9.16.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.16.dir\build.make" "Chapter 9/CMakeFiles/9.16.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=74 "Built target 9.16"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num= "Built target 9.16"
 .PHONY : Chapter\ 9/CMakeFiles/9.16.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter\ 9/CMakeFiles/9.16.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 9/CMakeFiles/9.16.dir/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 .PHONY : Chapter\ 9/CMakeFiles/9.16.dir/rule
@@ -1329,7 +1378,7 @@ Chapter\ 9/CMakeFiles/9.16.dir/clean:
 Chapter\ 9/CMakeFiles/9.11.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.11.dir\build.make" "Chapter 9/CMakeFiles/9.11.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.11.dir\build.make" "Chapter 9/CMakeFiles/9.11.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=70 "Built target 9.11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=74 "Built target 9.11"
 .PHONY : Chapter\ 9/CMakeFiles/9.11.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1356,7 +1405,7 @@ Chapter\ 9/CMakeFiles/9.11.dir/clean:
 Chapter\ 9/CMakeFiles/9.13.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.13.dir\build.make" "Chapter 9/CMakeFiles/9.13.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.13.dir\build.make" "Chapter 9/CMakeFiles/9.13.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=71 "Built target 9.13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=75 "Built target 9.13"
 .PHONY : Chapter\ 9/CMakeFiles/9.13.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1383,7 +1432,7 @@ Chapter\ 9/CMakeFiles/9.13.dir/clean:
 Chapter\ 9/CMakeFiles/9.47.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.47.dir\build.make" "Chapter 9/CMakeFiles/9.47.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.47.dir\build.make" "Chapter 9/CMakeFiles/9.47.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=94 "Built target 9.47"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=95 "Built target 9.47"
 .PHONY : Chapter\ 9/CMakeFiles/9.47.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1410,7 +1459,7 @@ Chapter\ 9/CMakeFiles/9.47.dir/clean:
 Chapter\ 9/CMakeFiles/9.14.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.14.dir\build.make" "Chapter 9/CMakeFiles/9.14.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.14.dir\build.make" "Chapter 9/CMakeFiles/9.14.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=72 "Built target 9.14"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=76 "Built target 9.14"
 .PHONY : Chapter\ 9/CMakeFiles/9.14.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1437,7 +1486,7 @@ Chapter\ 9/CMakeFiles/9.14.dir/clean:
 Chapter\ 9/CMakeFiles/9.46.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.46.dir\build.make" "Chapter 9/CMakeFiles/9.46.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.46.dir\build.make" "Chapter 9/CMakeFiles/9.46.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=93 "Built target 9.46"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=94 "Built target 9.46"
 .PHONY : Chapter\ 9/CMakeFiles/9.46.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1464,7 +1513,7 @@ Chapter\ 9/CMakeFiles/9.46.dir/clean:
 Chapter\ 9/CMakeFiles/9.15.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.15.dir\build.make" "Chapter 9/CMakeFiles/9.15.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.15.dir\build.make" "Chapter 9/CMakeFiles/9.15.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=73 "Built target 9.15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=77 "Built target 9.15"
 .PHONY : Chapter\ 9/CMakeFiles/9.15.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1491,7 +1540,7 @@ Chapter\ 9/CMakeFiles/9.15.dir/clean:
 Chapter\ 9/CMakeFiles/9.18.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.18.dir\build.make" "Chapter 9/CMakeFiles/9.18.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.18.dir\build.make" "Chapter 9/CMakeFiles/9.18.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=75 "Built target 9.18"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=78 "Built target 9.18"
 .PHONY : Chapter\ 9/CMakeFiles/9.18.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1518,7 +1567,7 @@ Chapter\ 9/CMakeFiles/9.18.dir/clean:
 Chapter\ 9/CMakeFiles/9.19.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.19.dir\build.make" "Chapter 9/CMakeFiles/9.19.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.19.dir\build.make" "Chapter 9/CMakeFiles/9.19.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=76 "Built target 9.19"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=79 "Built target 9.19"
 .PHONY : Chapter\ 9/CMakeFiles/9.19.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1545,7 +1594,7 @@ Chapter\ 9/CMakeFiles/9.19.dir/clean:
 Chapter\ 9/CMakeFiles/9.20.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.20.dir\build.make" "Chapter 9/CMakeFiles/9.20.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.20.dir\build.make" "Chapter 9/CMakeFiles/9.20.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=77 "Built target 9.20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=80 "Built target 9.20"
 .PHONY : Chapter\ 9/CMakeFiles/9.20.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1572,7 +1621,7 @@ Chapter\ 9/CMakeFiles/9.20.dir/clean:
 Chapter\ 9/CMakeFiles/9.21.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.21.dir\build.make" "Chapter 9/CMakeFiles/9.21.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.21.dir\build.make" "Chapter 9/CMakeFiles/9.21.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=78 "Built target 9.21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=81 "Built target 9.21"
 .PHONY : Chapter\ 9/CMakeFiles/9.21.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1599,7 +1648,7 @@ Chapter\ 9/CMakeFiles/9.21.dir/clean:
 Chapter\ 9/CMakeFiles/9.23.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.23.dir\build.make" "Chapter 9/CMakeFiles/9.23.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.23.dir\build.make" "Chapter 9/CMakeFiles/9.23.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=79 "Built target 9.23"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=82 "Built target 9.23"
 .PHONY : Chapter\ 9/CMakeFiles/9.23.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1626,7 +1675,7 @@ Chapter\ 9/CMakeFiles/9.23.dir/clean:
 Chapter\ 9/CMakeFiles/9.25.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.25.dir\build.make" "Chapter 9/CMakeFiles/9.25.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.25.dir\build.make" "Chapter 9/CMakeFiles/9.25.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=80 "Built target 9.25"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=83 "Built target 9.25"
 .PHONY : Chapter\ 9/CMakeFiles/9.25.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1653,7 +1702,7 @@ Chapter\ 9/CMakeFiles/9.25.dir/clean:
 Chapter\ 9/CMakeFiles/9.26.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.26.dir\build.make" "Chapter 9/CMakeFiles/9.26.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.26.dir\build.make" "Chapter 9/CMakeFiles/9.26.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=81 "Built target 9.26"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=84 "Built target 9.26"
 .PHONY : Chapter\ 9/CMakeFiles/9.26.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1680,7 +1729,7 @@ Chapter\ 9/CMakeFiles/9.26.dir/clean:
 Chapter\ 9/CMakeFiles/9.27.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.27.dir\build.make" "Chapter 9/CMakeFiles/9.27.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.27.dir\build.make" "Chapter 9/CMakeFiles/9.27.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=82 "Built target 9.27"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=85 "Built target 9.27"
 .PHONY : Chapter\ 9/CMakeFiles/9.27.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1707,12 +1756,12 @@ Chapter\ 9/CMakeFiles/9.27.dir/clean:
 Chapter\ 9/CMakeFiles/9.28.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.28.dir\build.make" "Chapter 9/CMakeFiles/9.28.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.28.dir\build.make" "Chapter 9/CMakeFiles/9.28.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=83,84 "Built target 9.28"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=86 "Built target 9.28"
 .PHONY : Chapter\ 9/CMakeFiles/9.28.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter\ 9/CMakeFiles/9.28.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 9/CMakeFiles/9.28.dir/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 .PHONY : Chapter\ 9/CMakeFiles/9.28.dir/rule
@@ -1734,7 +1783,7 @@ Chapter\ 9/CMakeFiles/9.28.dir/clean:
 Chapter\ 9/CMakeFiles/9.31.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.31.dir\build.make" "Chapter 9/CMakeFiles/9.31.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.31.dir\build.make" "Chapter 9/CMakeFiles/9.31.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=85 "Built target 9.31"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=87 "Built target 9.31"
 .PHONY : Chapter\ 9/CMakeFiles/9.31.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1761,7 +1810,7 @@ Chapter\ 9/CMakeFiles/9.31.dir/clean:
 Chapter\ 9/CMakeFiles/9.33.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.33.dir\build.make" "Chapter 9/CMakeFiles/9.33.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.33.dir\build.make" "Chapter 9/CMakeFiles/9.33.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=86 "Built target 9.33"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=88 "Built target 9.33"
 .PHONY : Chapter\ 9/CMakeFiles/9.33.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1788,12 +1837,12 @@ Chapter\ 9/CMakeFiles/9.33.dir/clean:
 Chapter\ 9/CMakeFiles/9.38.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.38.dir\build.make" "Chapter 9/CMakeFiles/9.38.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.38.dir\build.make" "Chapter 9/CMakeFiles/9.38.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=87 "Built target 9.38"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num= "Built target 9.38"
 .PHONY : Chapter\ 9/CMakeFiles/9.38.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter\ 9/CMakeFiles/9.38.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 9/CMakeFiles/9.38.dir/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 .PHONY : Chapter\ 9/CMakeFiles/9.38.dir/rule
@@ -1815,7 +1864,7 @@ Chapter\ 9/CMakeFiles/9.38.dir/clean:
 Chapter\ 9/CMakeFiles/9.41.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.41.dir\build.make" "Chapter 9/CMakeFiles/9.41.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.41.dir\build.make" "Chapter 9/CMakeFiles/9.41.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=89 "Built target 9.41"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=90 "Built target 9.41"
 .PHONY : Chapter\ 9/CMakeFiles/9.41.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1842,7 +1891,7 @@ Chapter\ 9/CMakeFiles/9.41.dir/clean:
 Chapter\ 9/CMakeFiles/9.43.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.43.dir\build.make" "Chapter 9/CMakeFiles/9.43.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.43.dir\build.make" "Chapter 9/CMakeFiles/9.43.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=90 "Built target 9.43"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=91 "Built target 9.43"
 .PHONY : Chapter\ 9/CMakeFiles/9.43.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1869,7 +1918,7 @@ Chapter\ 9/CMakeFiles/9.43.dir/clean:
 Chapter\ 9/CMakeFiles/9.50.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.50.dir\build.make" "Chapter 9/CMakeFiles/9.50.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.50.dir\build.make" "Chapter 9/CMakeFiles/9.50.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=96 "Built target 9.50"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=97 "Built target 9.50"
 .PHONY : Chapter\ 9/CMakeFiles/9.50.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1896,7 +1945,7 @@ Chapter\ 9/CMakeFiles/9.50.dir/clean:
 Chapter\ 9/CMakeFiles/9.51.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.51.dir\build.make" "Chapter 9/CMakeFiles/9.51.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.51.dir\build.make" "Chapter 9/CMakeFiles/9.51.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=97 "Built target 9.51"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=98 "Built target 9.51"
 .PHONY : Chapter\ 9/CMakeFiles/9.51.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1923,7 +1972,7 @@ Chapter\ 9/CMakeFiles/9.51.dir/clean:
 Chapter\ 9/CMakeFiles/9.52.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.52.dir\build.make" "Chapter 9/CMakeFiles/9.52.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 9\CMakeFiles\9.52.dir\build.make" "Chapter 9/CMakeFiles/9.52.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=98 "Built target 9.52"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=99 "Built target 9.52"
 .PHONY : Chapter\ 9/CMakeFiles/9.52.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1950,7 +1999,7 @@ Chapter\ 9/CMakeFiles/9.52.dir/clean:
 Chapter\ 10/CMakeFiles/10.9.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.9.dir\build.make" "Chapter 10/CMakeFiles/10.9.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.9.dir\build.make" "Chapter 10/CMakeFiles/10.9.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=28 "Built target 10.9"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=24 "Built target 10.9"
 .PHONY : Chapter\ 10/CMakeFiles/10.9.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1977,12 +2026,12 @@ Chapter\ 10/CMakeFiles/10.9.dir/clean:
 Chapter\ 10/CMakeFiles/10.1.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.1.dir\build.make" "Chapter 10/CMakeFiles/10.1.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.1.dir\build.make" "Chapter 10/CMakeFiles/10.1.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=1 "Built target 10.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num= "Built target 10.1"
 .PHONY : Chapter\ 10/CMakeFiles/10.1.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter\ 10/CMakeFiles/10.1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 10/CMakeFiles/10.1.dir/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 .PHONY : Chapter\ 10/CMakeFiles/10.1.dir/rule
@@ -2004,7 +2053,7 @@ Chapter\ 10/CMakeFiles/10.1.dir/clean:
 Chapter\ 10/CMakeFiles/10.3.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.3.dir\build.make" "Chapter 10/CMakeFiles/10.3.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.3.dir\build.make" "Chapter 10/CMakeFiles/10.3.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=18 "Built target 10.3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=15 "Built target 10.3"
 .PHONY : Chapter\ 10/CMakeFiles/10.3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2031,7 +2080,7 @@ Chapter\ 10/CMakeFiles/10.3.dir/clean:
 Chapter\ 10/CMakeFiles/10.16.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.16.dir\build.make" "Chapter 10/CMakeFiles/10.16.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.16.dir\build.make" "Chapter 10/CMakeFiles/10.16.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=6 "Built target 10.16"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=5 "Built target 10.16"
 .PHONY : Chapter\ 10/CMakeFiles/10.16.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2058,7 +2107,7 @@ Chapter\ 10/CMakeFiles/10.16.dir/clean:
 Chapter\ 10/CMakeFiles/10.5.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.5.dir\build.make" "Chapter 10/CMakeFiles/10.5.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.5.dir\build.make" "Chapter 10/CMakeFiles/10.5.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=25 "Built target 10.5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=22 "Built target 10.5"
 .PHONY : Chapter\ 10/CMakeFiles/10.5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2085,7 +2134,7 @@ Chapter\ 10/CMakeFiles/10.5.dir/clean:
 Chapter\ 10/CMakeFiles/10.15.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.15.dir\build.make" "Chapter 10/CMakeFiles/10.15.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.15.dir\build.make" "Chapter 10/CMakeFiles/10.15.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=5 "Built target 10.15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=4 "Built target 10.15"
 .PHONY : Chapter\ 10/CMakeFiles/10.15.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2112,12 +2161,12 @@ Chapter\ 10/CMakeFiles/10.15.dir/clean:
 Chapter\ 10/CMakeFiles/10.6.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.6.dir\build.make" "Chapter 10/CMakeFiles/10.6.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.6.dir\build.make" "Chapter 10/CMakeFiles/10.6.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=26 "Built target 10.6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num= "Built target 10.6"
 .PHONY : Chapter\ 10/CMakeFiles/10.6.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter\ 10/CMakeFiles/10.6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 10/CMakeFiles/10.6.dir/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 .PHONY : Chapter\ 10/CMakeFiles/10.6.dir/rule
@@ -2139,7 +2188,7 @@ Chapter\ 10/CMakeFiles/10.6.dir/clean:
 Chapter\ 10/CMakeFiles/10.14.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.14.dir\build.make" "Chapter 10/CMakeFiles/10.14.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.14.dir\build.make" "Chapter 10/CMakeFiles/10.14.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=4 "Built target 10.14"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=3 "Built target 10.14"
 .PHONY : Chapter\ 10/CMakeFiles/10.14.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2166,7 +2215,7 @@ Chapter\ 10/CMakeFiles/10.14.dir/clean:
 Chapter\ 10/CMakeFiles/10.7.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.7.dir\build.make" "Chapter 10/CMakeFiles/10.7.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.7.dir\build.make" "Chapter 10/CMakeFiles/10.7.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=27 "Built target 10.7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=23 "Built target 10.7"
 .PHONY : Chapter\ 10/CMakeFiles/10.7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2193,7 +2242,7 @@ Chapter\ 10/CMakeFiles/10.7.dir/clean:
 Chapter\ 10/CMakeFiles/10.42.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.42.dir\build.make" "Chapter 10/CMakeFiles/10.42.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.42.dir\build.make" "Chapter 10/CMakeFiles/10.42.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=24 "Built target 10.42"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=21 "Built target 10.42"
 .PHONY : Chapter\ 10/CMakeFiles/10.42.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2220,7 +2269,7 @@ Chapter\ 10/CMakeFiles/10.42.dir/clean:
 Chapter\ 10/CMakeFiles/10.11.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.11.dir\build.make" "Chapter 10/CMakeFiles/10.11.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.11.dir\build.make" "Chapter 10/CMakeFiles/10.11.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=2 "Built target 10.11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=1 "Built target 10.11"
 .PHONY : Chapter\ 10/CMakeFiles/10.11.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2247,7 +2296,7 @@ Chapter\ 10/CMakeFiles/10.11.dir/clean:
 Chapter\ 10/CMakeFiles/10.13.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.13.dir\build.make" "Chapter 10/CMakeFiles/10.13.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.13.dir\build.make" "Chapter 10/CMakeFiles/10.13.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=3 "Built target 10.13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=2 "Built target 10.13"
 .PHONY : Chapter\ 10/CMakeFiles/10.13.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2274,7 +2323,7 @@ Chapter\ 10/CMakeFiles/10.13.dir/clean:
 Chapter\ 10/CMakeFiles/10.18.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.18.dir\build.make" "Chapter 10/CMakeFiles/10.18.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.18.dir\build.make" "Chapter 10/CMakeFiles/10.18.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=7 "Built target 10.18"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=6 "Built target 10.18"
 .PHONY : Chapter\ 10/CMakeFiles/10.18.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2301,7 +2350,7 @@ Chapter\ 10/CMakeFiles/10.18.dir/clean:
 Chapter\ 10/CMakeFiles/10.19.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.19.dir\build.make" "Chapter 10/CMakeFiles/10.19.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.19.dir\build.make" "Chapter 10/CMakeFiles/10.19.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=8 "Built target 10.19"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=7 "Built target 10.19"
 .PHONY : Chapter\ 10/CMakeFiles/10.19.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2328,7 +2377,7 @@ Chapter\ 10/CMakeFiles/10.19.dir/clean:
 Chapter\ 10/CMakeFiles/10.20.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.20.dir\build.make" "Chapter 10/CMakeFiles/10.20.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.20.dir\build.make" "Chapter 10/CMakeFiles/10.20.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=9 "Built target 10.20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=8 "Built target 10.20"
 .PHONY : Chapter\ 10/CMakeFiles/10.20.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2355,7 +2404,7 @@ Chapter\ 10/CMakeFiles/10.20.dir/clean:
 Chapter\ 10/CMakeFiles/10.21.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.21.dir\build.make" "Chapter 10/CMakeFiles/10.21.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.21.dir\build.make" "Chapter 10/CMakeFiles/10.21.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=10 "Built target 10.21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=9 "Built target 10.21"
 .PHONY : Chapter\ 10/CMakeFiles/10.21.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2382,7 +2431,7 @@ Chapter\ 10/CMakeFiles/10.21.dir/clean:
 Chapter\ 10/CMakeFiles/10.22.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.22.dir\build.make" "Chapter 10/CMakeFiles/10.22.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.22.dir\build.make" "Chapter 10/CMakeFiles/10.22.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=11 "Built target 10.22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=10 "Built target 10.22"
 .PHONY : Chapter\ 10/CMakeFiles/10.22.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2409,7 +2458,7 @@ Chapter\ 10/CMakeFiles/10.22.dir/clean:
 Chapter\ 10/CMakeFiles/10.24.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.24.dir\build.make" "Chapter 10/CMakeFiles/10.24.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.24.dir\build.make" "Chapter 10/CMakeFiles/10.24.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=12 "Built target 10.24"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=11 "Built target 10.24"
 .PHONY : Chapter\ 10/CMakeFiles/10.24.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2436,12 +2485,12 @@ Chapter\ 10/CMakeFiles/10.24.dir/clean:
 Chapter\ 10/CMakeFiles/10.25.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.25.dir\build.make" "Chapter 10/CMakeFiles/10.25.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.25.dir\build.make" "Chapter 10/CMakeFiles/10.25.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=13 "Built target 10.25"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num= "Built target 10.25"
 .PHONY : Chapter\ 10/CMakeFiles/10.25.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter\ 10/CMakeFiles/10.25.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 10/CMakeFiles/10.25.dir/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 .PHONY : Chapter\ 10/CMakeFiles/10.25.dir/rule
@@ -2463,7 +2512,7 @@ Chapter\ 10/CMakeFiles/10.25.dir/clean:
 Chapter\ 10/CMakeFiles/10.27.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.27.dir\build.make" "Chapter 10/CMakeFiles/10.27.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.27.dir\build.make" "Chapter 10/CMakeFiles/10.27.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=14 "Built target 10.27"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=12 "Built target 10.27"
 .PHONY : Chapter\ 10/CMakeFiles/10.27.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2490,7 +2539,7 @@ Chapter\ 10/CMakeFiles/10.27.dir/clean:
 Chapter\ 10/CMakeFiles/10.28.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.28.dir\build.make" "Chapter 10/CMakeFiles/10.28.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.28.dir\build.make" "Chapter 10/CMakeFiles/10.28.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=15 "Built target 10.28"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=13 "Built target 10.28"
 .PHONY : Chapter\ 10/CMakeFiles/10.28.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2517,12 +2566,12 @@ Chapter\ 10/CMakeFiles/10.28.dir/clean:
 Chapter\ 10/CMakeFiles/10.29.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.29.dir\build.make" "Chapter 10/CMakeFiles/10.29.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.29.dir\build.make" "Chapter 10/CMakeFiles/10.29.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=16,17 "Built target 10.29"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=14 "Built target 10.29"
 .PHONY : Chapter\ 10/CMakeFiles/10.29.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter\ 10/CMakeFiles/10.29.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 10/CMakeFiles/10.29.dir/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 .PHONY : Chapter\ 10/CMakeFiles/10.29.dir/rule
@@ -2544,7 +2593,7 @@ Chapter\ 10/CMakeFiles/10.29.dir/clean:
 Chapter\ 10/CMakeFiles/10.30.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.30.dir\build.make" "Chapter 10/CMakeFiles/10.30.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.30.dir\build.make" "Chapter 10/CMakeFiles/10.30.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=19 "Built target 10.30"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=16 "Built target 10.30"
 .PHONY : Chapter\ 10/CMakeFiles/10.30.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2571,7 +2620,7 @@ Chapter\ 10/CMakeFiles/10.30.dir/clean:
 Chapter\ 10/CMakeFiles/10.33.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.33.dir\build.make" "Chapter 10/CMakeFiles/10.33.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.33.dir\build.make" "Chapter 10/CMakeFiles/10.33.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=20 "Built target 10.33"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=17 "Built target 10.33"
 .PHONY : Chapter\ 10/CMakeFiles/10.33.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2598,7 +2647,7 @@ Chapter\ 10/CMakeFiles/10.33.dir/clean:
 Chapter\ 10/CMakeFiles/10.34.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.34.dir\build.make" "Chapter 10/CMakeFiles/10.34.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.34.dir\build.make" "Chapter 10/CMakeFiles/10.34.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=21 "Built target 10.34"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=18 "Built target 10.34"
 .PHONY : Chapter\ 10/CMakeFiles/10.34.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2625,7 +2674,7 @@ Chapter\ 10/CMakeFiles/10.34.dir/clean:
 Chapter\ 10/CMakeFiles/10.36.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.36.dir\build.make" "Chapter 10/CMakeFiles/10.36.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.36.dir\build.make" "Chapter 10/CMakeFiles/10.36.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=22 "Built target 10.36"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=19 "Built target 10.36"
 .PHONY : Chapter\ 10/CMakeFiles/10.36.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2652,7 +2701,7 @@ Chapter\ 10/CMakeFiles/10.36.dir/clean:
 Chapter\ 10/CMakeFiles/10.37.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.37.dir\build.make" "Chapter 10/CMakeFiles/10.37.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 10\CMakeFiles\10.37.dir\build.make" "Chapter 10/CMakeFiles/10.37.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=23 "Built target 10.37"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=20 "Built target 10.37"
 .PHONY : Chapter\ 10/CMakeFiles/10.37.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2679,7 +2728,7 @@ Chapter\ 10/CMakeFiles/10.37.dir/clean:
 Chapter\ 11/CMakeFiles/11.23.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.23.dir\build.make" "Chapter 11/CMakeFiles/11.23.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.23.dir\build.make" "Chapter 11/CMakeFiles/11.23.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=32 "Built target 11.23"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=28 "Built target 11.23"
 .PHONY : Chapter\ 11/CMakeFiles/11.23.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2706,12 +2755,12 @@ Chapter\ 11/CMakeFiles/11.23.dir/clean:
 Chapter\ 11/CMakeFiles/11.3.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.3.dir\build.make" "Chapter 11/CMakeFiles/11.3.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.3.dir\build.make" "Chapter 11/CMakeFiles/11.3.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=33,34 "Built target 11.3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=29 "Built target 11.3"
 .PHONY : Chapter\ 11/CMakeFiles/11.3.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter\ 11/CMakeFiles/11.3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 11/CMakeFiles/11.3.dir/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 .PHONY : Chapter\ 11/CMakeFiles/11.3.dir/rule
@@ -2733,7 +2782,7 @@ Chapter\ 11/CMakeFiles/11.3.dir/clean:
 Chapter\ 11/CMakeFiles/11.7.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.7.dir\build.make" "Chapter 11/CMakeFiles/11.7.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.7.dir\build.make" "Chapter 11/CMakeFiles/11.7.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=38 "Built target 11.7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=33 "Built target 11.7"
 .PHONY : Chapter\ 11/CMakeFiles/11.7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2760,7 +2809,7 @@ Chapter\ 11/CMakeFiles/11.7.dir/clean:
 Chapter\ 11/CMakeFiles/11.12.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.12.dir\build.make" "Chapter 11/CMakeFiles/11.12.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.12.dir\build.make" "Chapter 11/CMakeFiles/11.12.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=29 "Built target 11.12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=25 "Built target 11.12"
 .PHONY : Chapter\ 11/CMakeFiles/11.12.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2787,7 +2836,7 @@ Chapter\ 11/CMakeFiles/11.12.dir/clean:
 Chapter\ 11/CMakeFiles/11.20.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.20.dir\build.make" "Chapter 11/CMakeFiles/11.20.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.20.dir\build.make" "Chapter 11/CMakeFiles/11.20.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=31 "Built target 11.20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=27 "Built target 11.20"
 .PHONY : Chapter\ 11/CMakeFiles/11.20.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2814,12 +2863,12 @@ Chapter\ 11/CMakeFiles/11.20.dir/clean:
 Chapter\ 11/CMakeFiles/11.8.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.8.dir\build.make" "Chapter 11/CMakeFiles/11.8.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.8.dir\build.make" "Chapter 11/CMakeFiles/11.8.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=39 "Built target 11.8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num= "Built target 11.8"
 .PHONY : Chapter\ 11/CMakeFiles/11.8.dir/all
 
 # Build rule for subdir invocation for target.
 Chapter\ 11/CMakeFiles/11.8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 11/CMakeFiles/11.8.dir/all"
 	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
 .PHONY : Chapter\ 11/CMakeFiles/11.8.dir/rule
@@ -2841,7 +2890,7 @@ Chapter\ 11/CMakeFiles/11.8.dir/clean:
 Chapter\ 11/CMakeFiles/11.14.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.14.dir\build.make" "Chapter 11/CMakeFiles/11.14.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.14.dir\build.make" "Chapter 11/CMakeFiles/11.14.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=30 "Built target 11.14"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=26 "Built target 11.14"
 .PHONY : Chapter\ 11/CMakeFiles/11.14.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2868,7 +2917,7 @@ Chapter\ 11/CMakeFiles/11.14.dir/clean:
 Chapter\ 11/CMakeFiles/11.31.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.31.dir\build.make" "Chapter 11/CMakeFiles/11.31.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.31.dir\build.make" "Chapter 11/CMakeFiles/11.31.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=35 "Built target 11.31"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=30 "Built target 11.31"
 .PHONY : Chapter\ 11/CMakeFiles/11.31.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2895,7 +2944,7 @@ Chapter\ 11/CMakeFiles/11.31.dir/clean:
 Chapter\ 11/CMakeFiles/11.33.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.33.dir\build.make" "Chapter 11/CMakeFiles/11.33.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.33.dir\build.make" "Chapter 11/CMakeFiles/11.33.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=36 "Built target 11.33"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=31 "Built target 11.33"
 .PHONY : Chapter\ 11/CMakeFiles/11.33.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2922,7 +2971,7 @@ Chapter\ 11/CMakeFiles/11.33.dir/clean:
 Chapter\ 11/CMakeFiles/11.38.dir/all:
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.38.dir\build.make" "Chapter 11/CMakeFiles/11.38.dir/depend"
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.38.dir\build.make" "Chapter 11/CMakeFiles/11.38.dir/build"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=37 "Built target 11.38"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=32 "Built target 11.38"
 .PHONY : Chapter\ 11/CMakeFiles/11.38.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2941,6 +2990,411 @@ Chapter\ 11/CMakeFiles/11.38.dir/rule: cmake_check_build_system
 Chapter\ 11/CMakeFiles/11.38.dir/clean:
 	$(MAKE) $(MAKESILENT) -f "Chapter 11\CMakeFiles\11.38.dir\build.make" "Chapter 11/CMakeFiles/11.38.dir/clean"
 .PHONY : Chapter\ 11/CMakeFiles/11.38.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.30.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.30.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.30.dir\build.make" "Chapter 12/CMakeFiles/12.30.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.30.dir\build.make" "Chapter 12/CMakeFiles/12.30.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=44 "Built target 12.30"
+.PHONY : Chapter\ 12/CMakeFiles/12.30.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.30.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.30.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.30.dir/rule
+
+# Convenience name for target.
+12.30: Chapter\ 12/CMakeFiles/12.30.dir/rule
+
+.PHONY : 12.30
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.30.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.30.dir\build.make" "Chapter 12/CMakeFiles/12.30.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.30.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.1.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.1.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.1.dir\build.make" "Chapter 12/CMakeFiles/12.1.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.1.dir\build.make" "Chapter 12/CMakeFiles/12.1.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=34 "Built target 12.1"
+.PHONY : Chapter\ 12/CMakeFiles/12.1.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.1.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.1.dir/rule
+
+# Convenience name for target.
+12.1: Chapter\ 12/CMakeFiles/12.1.dir/rule
+
+.PHONY : 12.1
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.1.dir\build.make" "Chapter 12/CMakeFiles/12.1.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.1.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.6.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.6.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.6.dir\build.make" "Chapter 12/CMakeFiles/12.6.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.6.dir\build.make" "Chapter 12/CMakeFiles/12.6.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=46 "Built target 12.6"
+.PHONY : Chapter\ 12/CMakeFiles/12.6.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.6.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.6.dir/rule
+
+# Convenience name for target.
+12.6: Chapter\ 12/CMakeFiles/12.6.dir/rule
+
+.PHONY : 12.6
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.6.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.6.dir\build.make" "Chapter 12/CMakeFiles/12.6.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.6.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.14.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.14.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.14.dir\build.make" "Chapter 12/CMakeFiles/12.14.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.14.dir\build.make" "Chapter 12/CMakeFiles/12.14.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=35 "Built target 12.14"
+.PHONY : Chapter\ 12/CMakeFiles/12.14.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.14.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.14.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.14.dir/rule
+
+# Convenience name for target.
+12.14: Chapter\ 12/CMakeFiles/12.14.dir/rule
+
+.PHONY : 12.14
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.14.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.14.dir\build.make" "Chapter 12/CMakeFiles/12.14.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.14.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.7.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.7.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.7.dir\build.make" "Chapter 12/CMakeFiles/12.7.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.7.dir\build.make" "Chapter 12/CMakeFiles/12.7.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=47 "Built target 12.7"
+.PHONY : Chapter\ 12/CMakeFiles/12.7.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.7.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.7.dir/rule
+
+# Convenience name for target.
+12.7: Chapter\ 12/CMakeFiles/12.7.dir/rule
+
+.PHONY : 12.7
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.7.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.7.dir\build.make" "Chapter 12/CMakeFiles/12.7.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.7.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.23.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.23.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.23.dir\build.make" "Chapter 12/CMakeFiles/12.23.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.23.dir\build.make" "Chapter 12/CMakeFiles/12.23.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=39 "Built target 12.23"
+.PHONY : Chapter\ 12/CMakeFiles/12.23.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.23.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.23.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.23.dir/rule
+
+# Convenience name for target.
+12.23: Chapter\ 12/CMakeFiles/12.23.dir/rule
+
+.PHONY : 12.23
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.23.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.23.dir\build.make" "Chapter 12/CMakeFiles/12.23.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.23.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.16.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.16.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.16.dir\build.make" "Chapter 12/CMakeFiles/12.16.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.16.dir\build.make" "Chapter 12/CMakeFiles/12.16.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=36 "Built target 12.16"
+.PHONY : Chapter\ 12/CMakeFiles/12.16.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.16.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.16.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.16.dir/rule
+
+# Convenience name for target.
+12.16: Chapter\ 12/CMakeFiles/12.16.dir/rule
+
+.PHONY : 12.16
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.16.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.16.dir\build.make" "Chapter 12/CMakeFiles/12.16.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.16.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.19.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.19.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.19.dir\build.make" "Chapter 12/CMakeFiles/12.19.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.19.dir\build.make" "Chapter 12/CMakeFiles/12.19.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=37 "Built target 12.19"
+.PHONY : Chapter\ 12/CMakeFiles/12.19.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.19.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.19.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.19.dir/rule
+
+# Convenience name for target.
+12.19: Chapter\ 12/CMakeFiles/12.19.dir/rule
+
+.PHONY : 12.19
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.19.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.19.dir\build.make" "Chapter 12/CMakeFiles/12.19.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.19.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.22.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.22.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.22.dir\build.make" "Chapter 12/CMakeFiles/12.22.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.22.dir\build.make" "Chapter 12/CMakeFiles/12.22.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=38 "Built target 12.22"
+.PHONY : Chapter\ 12/CMakeFiles/12.22.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.22.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.22.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.22.dir/rule
+
+# Convenience name for target.
+12.22: Chapter\ 12/CMakeFiles/12.22.dir/rule
+
+.PHONY : 12.22
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.22.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.22.dir\build.make" "Chapter 12/CMakeFiles/12.22.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.22.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.24.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.24.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.24.dir\build.make" "Chapter 12/CMakeFiles/12.24.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.24.dir\build.make" "Chapter 12/CMakeFiles/12.24.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=40 "Built target 12.24"
+.PHONY : Chapter\ 12/CMakeFiles/12.24.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.24.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.24.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.24.dir/rule
+
+# Convenience name for target.
+12.24: Chapter\ 12/CMakeFiles/12.24.dir/rule
+
+.PHONY : 12.24
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.24.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.24.dir\build.make" "Chapter 12/CMakeFiles/12.24.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.24.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.26.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.26.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.26.dir\build.make" "Chapter 12/CMakeFiles/12.26.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.26.dir\build.make" "Chapter 12/CMakeFiles/12.26.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=41 "Built target 12.26"
+.PHONY : Chapter\ 12/CMakeFiles/12.26.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.26.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.26.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.26.dir/rule
+
+# Convenience name for target.
+12.26: Chapter\ 12/CMakeFiles/12.26.dir/rule
+
+.PHONY : 12.26
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.26.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.26.dir\build.make" "Chapter 12/CMakeFiles/12.26.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.26.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.27.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.27.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.27.dir\build.make" "Chapter 12/CMakeFiles/12.27.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.27.dir\build.make" "Chapter 12/CMakeFiles/12.27.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=42 "Built target 12.27"
+.PHONY : Chapter\ 12/CMakeFiles/12.27.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.27.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.27.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.27.dir/rule
+
+# Convenience name for target.
+12.27: Chapter\ 12/CMakeFiles/12.27.dir/rule
+
+.PHONY : 12.27
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.27.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.27.dir\build.make" "Chapter 12/CMakeFiles/12.27.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.27.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.28.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.28.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.28.dir\build.make" "Chapter 12/CMakeFiles/12.28.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.28.dir\build.make" "Chapter 12/CMakeFiles/12.28.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=43 "Built target 12.28"
+.PHONY : Chapter\ 12/CMakeFiles/12.28.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.28.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.28.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.28.dir/rule
+
+# Convenience name for target.
+12.28: Chapter\ 12/CMakeFiles/12.28.dir/rule
+
+.PHONY : 12.28
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.28.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.28.dir\build.make" "Chapter 12/CMakeFiles/12.28.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.28.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.32.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.32.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.32.dir\build.make" "Chapter 12/CMakeFiles/12.32.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.32.dir\build.make" "Chapter 12/CMakeFiles/12.32.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num= "Built target 12.32"
+.PHONY : Chapter\ 12/CMakeFiles/12.32.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.32.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.32.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.32.dir/rule
+
+# Convenience name for target.
+12.32: Chapter\ 12/CMakeFiles/12.32.dir/rule
+
+.PHONY : 12.32
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.32.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.32.dir\build.make" "Chapter 12/CMakeFiles/12.32.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.32.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter 12/CMakeFiles/12.33.dir
+
+# All Build rule for target.
+Chapter\ 12/CMakeFiles/12.33.dir/all:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.33.dir\build.make" "Chapter 12/CMakeFiles/12.33.dir/depend"
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.33.dir\build.make" "Chapter 12/CMakeFiles/12.33.dir/build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" --progress-num=45 "Built target 12.33"
+.PHONY : Chapter\ 12/CMakeFiles/12.33.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter\ 12/CMakeFiles/12.33.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Chapter 12/CMakeFiles/12.33.dir/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start "F:\Desktop\C++ Primer Exercise\cmake-build-debug\CMakeFiles" 0
+.PHONY : Chapter\ 12/CMakeFiles/12.33.dir/rule
+
+# Convenience name for target.
+12.33: Chapter\ 12/CMakeFiles/12.33.dir/rule
+
+.PHONY : 12.33
+
+# clean rule for target.
+Chapter\ 12/CMakeFiles/12.33.dir/clean:
+	$(MAKE) $(MAKESILENT) -f "Chapter 12\CMakeFiles\12.33.dir\build.make" "Chapter 12/CMakeFiles/12.33.dir/clean"
+.PHONY : Chapter\ 12/CMakeFiles/12.33.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

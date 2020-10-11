@@ -36,6 +36,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "../Chapter 10/CMakeLists.txt"
   "../Chapter 11/CMakeLists.txt"
+  "../Chapter 12/CMakeLists.txt"
   "../Chapter 5/CMakeLists.txt"
   "../Chapter 6/CMakeLists.txt"
   "../Chapter 7/CMakeLists.txt"
@@ -63,6 +64,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Chapter 9/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Chapter 10/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Chapter 11/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter 12/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -161,4 +163,19 @@ set(CMAKE_DEPEND_INFO_FILES
   "Chapter 11/CMakeFiles/11.31.dir/DependInfo.cmake"
   "Chapter 11/CMakeFiles/11.33.dir/DependInfo.cmake"
   "Chapter 11/CMakeFiles/11.38.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.30.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.1.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.6.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.14.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.7.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.23.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.16.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.19.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.22.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.24.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.26.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.27.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.28.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.32.dir/DependInfo.cmake"
+  "Chapter 12/CMakeFiles/12.33.dir/DependInfo.cmake"
   )
