@@ -62,7 +62,7 @@ private:
     void do_display(ostream &os) const { os << contents; }
 };
 
-inline Screen::screen_size Screen::getScreenSize() const {
+Screen::screen_size Screen::getScreenSize() const {
     return height * width;
 }
 

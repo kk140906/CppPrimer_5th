@@ -1,4 +1,0 @@
-D:\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=D:/MinGW64/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/MinGW64/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/MinGW64/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" "F:\Desktop\C++ Primer Exercise"
--- Configuring done
--- Generating done
--- Build files have been written to: F:/Desktop/C++ Primer Exercise/cmake-build-release
