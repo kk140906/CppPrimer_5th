@@ -4,17 +4,18 @@
  * TextQueryResult类用于打印、获取查询的结果
  * */
 
+#define Exercise1232
+
 #include <iostream>
 #include <string>
-#include "12.32.textquery.h"
-#include "12.32.textqueryresult.h"
+#include "../common/header/textquery.h"
+#include "../common/header/textqueryresult.h"
 
 using namespace std;
-using namespace Exercise1232;
 
 int main(int argc, char **argv) {
 
-    string file("12.27.testFile.txt");
+    string file("Pride_And_Prejudice.txt");
     TextQuery textQuery(file);
     string word;
     while (true) {

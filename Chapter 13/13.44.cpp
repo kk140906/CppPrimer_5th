@@ -7,12 +7,11 @@
  * Exercise 13.50,测试13.48,观察什么时候避免拷贝
  */
 
-#include "13.44.String.h"
+#include "../common/header/String.h"
 #include <iterator>
 #include <vector>
 
 using namespace std;
-using namespace Exercise1344;
 
 int main(int argc, char **argv) {
 

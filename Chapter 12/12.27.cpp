@@ -4,19 +4,19 @@
  * TextQueryResult类用于打印、获取查询的结果
  * */
 
+#define Exercise1227
+
 #include <iostream>
-#include "12.27.textquery.h"
-#include "12.27.textqueryresult.h"
+#include "../common/header/textquery.h"
+#include "../common/header/textqueryresult.h"
 
 using namespace std;
-using namespace Exercise1227;
 
 int main(int argc, char **argv) {
 
-    string file("12.27.testFile.txt");
+    string file("Pride_And_Prejudice.txt");
     TextQuery textQuery(file);
-    auto query = textQuery.query("this");
-    TextQueryResult result(query);
+    auto result = textQuery.query("this");
     result.print();
     return 0;
 }

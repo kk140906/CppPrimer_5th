@@ -3,18 +3,21 @@
  * 再添加一个名为get_file的成员，返回一个shared_ptr，指向TextQueryResult中包含文件所有内容的vector
  * */
 
+#define Exercise1233
+
 #include <iostream>
 #include <string>
 #include <algorithm>
-#include "12.33.textquery.h"
-#include "12.33.textqueryresult.h"
+
+#include "../common/header/textquery.h"
+#include "../common/header/textqueryresult.h"
+
 
 using namespace std;
-using namespace Exercise1233;
 
 int main(int argc, char **argv) {
 
-    string file("12.27.testFile.txt");
+    string file("Pride_And_Prejudice.txt");
     TextQuery textQuery(file);
     string word;
     while (true) {

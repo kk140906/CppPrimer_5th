@@ -9,12 +9,11 @@
  * 目录提供addMsg和rmMsg,分别向一个目录添加或者删除给定的消息
  * 当拷贝一个目录时，副本和源对象是不同的对象，但是两个对象都会出现在相同的消息中
  * */
-#include "13.34.Messages_Folders.h"
+#include "../common/header/Messages_Folders.h"
 
 #include <iostream>
 
 using namespace std;
-using namespace Exercise1334;
 
 int main(int argc, char **argv) {
     cout << "-----------Messages 拷贝构造函数------------" << endl;

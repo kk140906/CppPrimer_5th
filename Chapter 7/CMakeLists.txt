@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.17)
 project(CHAPTER7)
 set(CMAKE_CXX_STANDARD 14)
+add_executable(7.1 7.1.cpp ../common/header/Sales_data.h)
 add_executable(7.4 7.4.cpp)
 add_executable(7.9 7.9.cpp)
 add_executable(7.15 7.15.cpp)

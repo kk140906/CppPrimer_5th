@@ -2,19 +2,20 @@
  * Exercise 13.42 在TextQuery 和TextQueryResult类中使用StrVec代替vector<string>来测试StrVec类
  */
 
+#define Exercise1342
 
 #include <iostream>
 #include <string>
 #include <algorithm>
-#include "13.42.textquery.h"
-#include "13.42.textqueryresult.h"
+#include "../common/header/textquery.h"
+#include "../common/header/textqueryresult.h"
+
 
 using namespace std;
-using namespace Exercise1342;
 
 int main(int argc, char **argv) {
 
-    string file("Chapter 12/12.27.testFile.txt");
+    string file("Pride_And_Prejudice.txt");
     TextQuery textQuery(file);
     string word;
     while (true) {
@@ -26,7 +27,6 @@ int main(int argc, char **argv) {
         for_each(result.begin(), result.end(), [](const auto &cr) { cout << cr << " "; });
         cout << endl;
         cout << *result.begin() << " " << *result.end() << endl;
-        cout << "文件行数:" << result.get_file()->size() << endl;
     }
     return 0;
 }

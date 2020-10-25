@@ -7,46 +7,8 @@
 #include <string>
 #include <vector>
 #include <initializer_list>
-
+#include "../common/header/StrBlob.h"
 using namespace std;
-
-class StrBlob {
-public:
-    StrBlob() : data(shared_ptr<vector<string>>()) {}
-
-    StrBlob(initializer_list<string> il) : data(make_shared<vector<string>>(il)) {}
-
-    auto size() const { return data->size(); }
-
-    auto empty() const { return data->empty(); }
-
-    const auto front() const {
-        if (!empty()) {
-            return data->front();
-        }
-        return string();
-    }
-
-    const auto back() const {
-        if (!empty()) {
-            return data->back();
-        }
-        return string();
-    }
-
-    void useCount(const string &identify) {
-        cout << identify << " - 引用计数: " << data.use_count() << endl;
-    }
-
-    void push_back(const string &s) { data->push_back(s); }
-
-    void pop_back() { if (!empty()) data->pop_back(); }
-
-
-private:
-    shared_ptr<vector<string>> data;
-};
-
 
 int main(int argc, char **argv) {
 

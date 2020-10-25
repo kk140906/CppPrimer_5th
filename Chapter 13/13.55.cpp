@@ -2,13 +2,13 @@
  * Exercise 13.55 为你的StrBlob类添加一个右值引用版本的push_back;
  * */
 
-#include "13.25.StrBlob.h"
+#include "../common/header/StrBlob.h"
 
 using namespace std;
 
 int main(int argc, char **argv) {
 
-    Exercise1325::StrBlob a{"a", "b"}, b;
+    StrBlob a{"a", "b"}, b;
     std::cout << "对象a内元素:" << std::endl;
     a.print();
     b = a;

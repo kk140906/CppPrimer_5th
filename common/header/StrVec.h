@@ -12,6 +12,13 @@
 #include <initializer_list>
 
 class StrVec {
+    friend bool operator==(const StrVec &lsv, const StrVec &rsv);
+
+    friend bool operator!=(const StrVec &lsv, const StrVec &rsv);
+
+    // 比较StrVec中每个元素
+    friend bool operator<(const StrVec &lsv, const StrVec &rsv);
+
     using iter = std::string *;
     using iter_pair = std::pair<StrVec::iter, StrVec::iter>;
     using content = std::string;
@@ -32,7 +39,11 @@ public:
 
     StrVec &operator=(const StrVec &);
 
+    StrVec &operator=(const std::initializer_list<std::string> &il);
+
     StrVec &operator=(StrVec &&) noexcept;
+
+    content &operator[](std::size_t pos);
 
     ~StrVec() { free(); }
 
@@ -56,7 +67,6 @@ public:
 
     void resize(std::size_t n, const content &str = "");
 
-    content operator[](std::size_t pos);
 
 private:
     iter elements;

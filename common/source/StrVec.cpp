@@ -2,7 +2,7 @@
 // Created by KK on 2020/10/17.
 //
 
-#include "13.39.StrVec.h"
+#include "../header/StrVec.h"
 #include <algorithm>
 
 // 静态成员必须在类外进行定义，否则会报undefined alloc的错误
@@ -116,7 +116,7 @@ void StrVec::reserve(const std::size_t n) {
 
 }
 
-StrVec::content StrVec::operator[](std::size_t pos) {
+StrVec::content &StrVec::operator[](std::size_t pos) {
     if (pos > size() - 1) { throw std::range_error("Subscript over range."); }
     return *(elements + pos);
 }
@@ -142,6 +142,34 @@ void StrVec::move_iter(StrVec::iter &b, StrVec::iter &e, StrVec::iter &c) {
     first_free = e;
     cap = c;
     b = e = c = nullptr;
+}
+
+bool operator==(const StrVec &lsv, const StrVec &rsv) {
+    if (lsv.size() != rsv.size()) {
+        return false;
+    }
+    auto lsv_begin = lsv.cbegin();
+    auto rsv_begin = rsv.cbegin();
+    while (lsv_begin != lsv.cend()) {
+        if (*lsv_begin++ != *rsv_begin++) { return false; }
+    }
+    return true;
+}
+
+bool operator!=(const StrVec &lsv, const StrVec &rsv) {
+    return !(lsv == rsv);
+}
+
+bool operator<(const StrVec &lsv, const StrVec &rsv) {
+    return std::lexicographical_compare(lsv.elements, lsv.first_free, rsv.elements, rsv.first_free);
+}
+
+StrVec &StrVec::operator=(const std::initializer_list<std::string> &il) {
+    std::cout << "调用重载的接受initializer_list的赋值运算符" << std::endl;
+    auto new_iter_pair = alloc_n_copy(const_cast<iter>(il.begin()), const_cast<iter>(il.end()));
+    elements = new_iter_pair.first;
+    first_free = cap = new_iter_pair.second;
+    return *this;
 }
 
 
