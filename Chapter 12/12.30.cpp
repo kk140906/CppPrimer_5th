@@ -4,12 +4,11 @@
  * TextQueryResult类用于打印、获取查询的结果
  * */
 
-#define Exercise1230
 
 #include <iostream>
 #include <string>
-#include "../common/header/textquery.h"
-#include "../common/header/textqueryresult.h"
+#include "../common/header/text_query.h"
+#include "../common/header/text_query_result.h"
 
 using namespace std;
 

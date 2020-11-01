@@ -3,6 +3,7 @@
  * 然后重写这个程序，连接两个标准库的string对象
  * */
 
+#include <cstring>
 #include <iostream>
 #include <memory>
 #include <algorithm>

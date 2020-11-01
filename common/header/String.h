@@ -9,7 +9,7 @@
 #include <iostream>
 #include <memory>
 #include <algorithm>
-
+#include <cstring>
 
 class Strings {
     // 与IO库兼容的输入输出运算符必须是非成员函数

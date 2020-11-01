@@ -9,8 +9,8 @@
 #include <string>
 #include <algorithm>
 
-#include "../common/header/textquery.h"
-#include "../common/header/textqueryresult.h"
+#include "../common/header/text_query.h"
+#include "../common/header/text_query_result.h"
 
 
 using namespace std;
