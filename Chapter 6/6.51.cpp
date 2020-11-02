@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 6.51 编写4个重载函数，分别验证调用的函数
  */
 #include <iostream>

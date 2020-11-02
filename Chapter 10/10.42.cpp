@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 10.42 使用list实现去除重复单词
  * */
 #include <iostream>

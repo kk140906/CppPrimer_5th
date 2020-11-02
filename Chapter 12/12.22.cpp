@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 12.22 为了能让StrBlobPtr使用const StrBlob,修改并定义一个StrBlobPtr的类，使其能够指向const StrBlob
  * */
 

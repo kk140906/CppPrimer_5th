@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 11.12 编写程序，读入string和int的序列,将每个string和int存入一个pair，pair保存在一个vector中
  * Exercise 11.13 至少采用三种方式创建pair的方法
  * */

@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 14.18 为你的StrBlob类、StrBlobPtr类，StrVec类，和Strings类定义关系运算符
  */
 #include <iostream>

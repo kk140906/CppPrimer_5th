@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 15.35 实现Query类和QueryBase类
  * Exercise 15.36 在构造函数和rep成员中添加打印语句，Exercise15.34中的(a),(b)输出
  * Exercise 15.39

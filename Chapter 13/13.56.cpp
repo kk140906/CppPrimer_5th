@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 13.56 如果sorted定义如下，会发生什么
  * Foo Foo::sorted() const &{
  *      Foo ret(*this);

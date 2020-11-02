@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.28 编写函数，接受一个forward_list<string>和两个string共三个参
  * 数。函数应在链表中查找第一个string，并将第二个string插入到紧接着第一个
  * string之后的位置。若第1个string未在链表中 ，则将第二个string插入到链表末尾 。

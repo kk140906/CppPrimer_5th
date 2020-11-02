@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.11 写出6种创建和初始化vector对象的方法,每一种都给出一个实例
  * */
 #include <iostream>

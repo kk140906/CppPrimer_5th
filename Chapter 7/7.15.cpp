@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 7.15  给Person类添加构造函数
  */
 #include <iostream>

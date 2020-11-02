@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 13.42 在TextQuery 和TextQueryResult类中使用StrVec代替vector<string>来测试StrVec类
  */
 

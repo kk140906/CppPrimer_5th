@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 15.28 定义一个存放Quote对象的vector，将Bulk_quote的对象传入其中，计算vector中所有元素的net_price的总和
  * Exercise 15.29 重新定义新的vector保存Quote的智能指针，将Bulk_quote的对象传入其中，计算vector中所有元素的net_price的总和
  */

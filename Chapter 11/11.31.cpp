@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 11.31 定义一个作者及其作品的multimap，使用find在multimap中查找一个元素并用erase删除它，确保当元素不在map中也能正常运行
  * Exercise 11.32 按照字典序打印作者列表和他们的作品
  * */

@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 13.14 假定numbered是一个类，它有一个默认构造函数，能为每个对象生成一个唯一的序号，保存在名为mysn的数据成员中，
  * 当numbered使用合成的拷贝控制成员时，并创建以下函数调用
  * void func(numbered s) { cout << s.mysn << endl;}

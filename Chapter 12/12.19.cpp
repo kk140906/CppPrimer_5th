@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 12.19 定义自己的StrBlobPtr类，包含一个weak_ptr指向StrBlob的data成员
  * Exercise 12.20 逐行读取一个输入文件，将内容存入一个StrBlob中，用一个StrBlobPtr打印出StrBlob中所有元素
  * */

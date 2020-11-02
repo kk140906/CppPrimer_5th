@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 12.14 编写你自己版本的shared_ptr管理connection的函数
  * Exercise 12.15 编写你自己版本的shared_ptr管理connection的函数,使用lambda替换doDisconnect函数
  * */

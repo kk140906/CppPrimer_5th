@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.41 利用一个vector<char> 去初始化一个string
  */
 #include <iostream>

@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.19 编写程序，从标准输入读取string 蓄力，存入一个list中，然后用迭代器打印list的元素
  */
 #include <iostream>

@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 10.3-10.4 用accumulate求一个vector<int>的值，
  * 如果容器v类型是vector<double>,调用accumulate(v.cbegin(),v.cend(),0)会损失计算精度,因为返回值是整型
  * */

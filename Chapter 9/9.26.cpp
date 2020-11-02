@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.26 将一个数组分别拷贝到一个vector和list中，
  * 使用erase接收单个迭代器的版本删除对应的元素，vector中仅保留奇数，list中仅保留偶数
  */

@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 6.47 编写一个递归函数，输出vector对象的内容,通过NDEBUG宏控制输出日志
  */
 #include <iostream>

@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 6.44 使用内联函数比较两个string对象的长度
  */
 #include <iostream>

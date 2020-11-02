@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 10.14 编写一个lambda，接受两个int，返回他们的和
  * */
 #include <iostream>

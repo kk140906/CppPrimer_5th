@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.38 验证vector中是如何实现自动调整capacity
  */
 #include <iostream>

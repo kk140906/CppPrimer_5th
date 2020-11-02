@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 10.6 用fill_n函数将一个序列中的int值都变为0
  * */
 #include <iostream>

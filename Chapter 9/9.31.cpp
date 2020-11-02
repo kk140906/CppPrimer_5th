@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.31 编写删除偶数值元素并复制奇数值元素的函数用于list或forward_list
  */
 #include <iostream>

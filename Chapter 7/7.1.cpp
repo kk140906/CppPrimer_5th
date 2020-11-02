@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 7.1 定义一个Sales_data类，表示书店售出书籍的数量、总销售额和平均售价
  */
 #include <iostream>

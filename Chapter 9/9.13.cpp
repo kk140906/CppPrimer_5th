@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.13 验证使用存储int元素的list容器初始化存储double元素的vector容器会发生什么情况?
  * 如果利用存储int的vector容器初始化存储double元素的容器又会发生什么情况?
  */

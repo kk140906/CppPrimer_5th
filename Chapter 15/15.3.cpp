@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 15.3 定义自己的Quote类和print_total函数
  */
 #include <iostream>

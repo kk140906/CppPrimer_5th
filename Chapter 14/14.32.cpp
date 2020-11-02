@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 14.32 定义一个类，令其含有指向StrBlobPtr对象的指针，为这个类定义重载的箭头运算符
  */
 #include <iostream>

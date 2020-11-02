@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 11.20 编写一个单词计数程序，可以忽略大小写和标点，例如"example.","Example,","example?"等单词应该递增相同的计数器
  * 使用map的insert函数代替[]
  * */

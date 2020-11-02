@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 10.28 一个vector中保存1到9,分别使用inserter,back_inserter,front_inserter将其拷贝到三个容器中
  * */
 #include <iostream>

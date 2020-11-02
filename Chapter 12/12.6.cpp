@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 12.6 编写函数，返回一个动态分配的int的vector,
  * 将此vector传递给另外一个函数，这个函数读取标准输入，将读入的值保存在vector元素中
  * 再将vector传递给另外一个函数，打印读入的值，记得在恰当的时候delete vector

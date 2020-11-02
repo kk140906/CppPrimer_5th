@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 15.11 为你的Quote体系添加一个名为debug的函数，令其分别显示每个类的数据成员
  */
 #include <iostream>

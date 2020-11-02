@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 8.11 编写函数，以读模式打开一个文件，将其内容读入到一个string 的vector中，将一行作为一个独立的元素保存在vector中
  * 然后定义一个函数从vector中以istringstream的形式一个一个读取内容,把istringstream定义移动到循环外定义
  */

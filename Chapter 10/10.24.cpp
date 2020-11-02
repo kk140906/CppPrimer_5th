@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 10.24 给定一个string，使用bind和check_size在一个int的vector中查找第一个大鱼string长度的值
  * */
 #include <iostream>

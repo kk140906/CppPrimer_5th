@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.14 将一个list中的char * 指针传递给vector中的string
  */
 #include <iostream>

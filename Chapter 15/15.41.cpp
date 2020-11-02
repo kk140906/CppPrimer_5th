@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 15.41 重写Query类，使用内置指针而不是shared_ptr
  */
 
@@ -14,7 +14,7 @@
 
 namespace exercise1541 {
 
-/*
+/**
  * 通过Query这个接口类去调用所有的接口，隐藏了所有的实现
  * 不期望用户直接使用QueryBase及其派生类应该将其成员都定义为private或者protected
  * 声明为private后Query需要调用Query_base执行不同的对象的eval和rep函数，故将其声明为友元
@@ -109,7 +109,7 @@ namespace exercise1541 {
         QueryBase *qb_;
     };
 
-/*
+/**
  * 单词查询，唯一一个实际的查询，与、或、非操作的最终查询都由此进行
  */
     class WordQuery : public QueryBase {
@@ -130,7 +130,7 @@ namespace exercise1541 {
         std::string word_;
     };
 
-/*
+/**
  * 取反查询是对一个Query对象进行操作
  */
     class NotQuery : public QueryBase {
@@ -151,7 +151,7 @@ namespace exercise1541 {
         Query query_;
     };
 
-/*
+/**
  * 二元操作对象的抽象基类
  */
     class BinaryQuery : public QueryBase {

@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 12.26 使用allocator重写p427的程序
  *
  * */

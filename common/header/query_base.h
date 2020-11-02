@@ -13,7 +13,7 @@
 
 //#define NDEBUG
 
-/*
+/**
  * 通过Query这个接口类去调用所有的接口，隐藏了所有的实现
  * 不期望用户直接使用QueryBase及其派生类应该将其成员都定义为private或者protected
  * 声明为private后Query需要调用Query_base执行不同的对象的eval和rep函数，故将其声明为友元
@@ -39,7 +39,7 @@ private:
 };
 
 
-/*
+/**
  * Query类是一个接口类，对外提供查询的所有接口
  */
 class Query {
@@ -68,7 +68,7 @@ private:
     std::shared_ptr<QueryBase> sp_qb_;
 };
 
-/*
+/**
  * 单词查询，唯一一个实际的查询，与、或、非操作的最终查询都由此进行
  */
 class WordQuery : public QueryBase {
@@ -96,7 +96,7 @@ private:
 };
 
 
-/*
+/**
  * 取反查询是对一个Query对象进行操作
  */
 class NotQuery : public QueryBase {
@@ -124,7 +124,7 @@ private:
     Query query_;
 };
 
-/*
+/**
  * 二元操作对象的抽象基类
  */
 class BinaryQuery : public QueryBase {
@@ -181,7 +181,7 @@ private:
     TextQueryResult eval(TextQuery &tq) const override;
 };
 
-/*
+/**
  * 查询历史记录器
  */
 
@@ -198,10 +198,8 @@ public:
 
     // 创建单例模式
     static QueryHistoriesLogger *CreatInstance() {
-        if (!instance_) {
-            instance_ = new QueryHistoriesLogger;
-        }
-        return instance_;
+        static QueryHistoriesLogger instance_;
+        return &instance_;
     }
 
     Query *GetQuery(std::size_t num) {
@@ -227,7 +225,6 @@ private:
     }
 
     std::vector<std::shared_ptr<Query>> logger_;
-    static QueryHistoriesLogger *instance_;
 };
 
 

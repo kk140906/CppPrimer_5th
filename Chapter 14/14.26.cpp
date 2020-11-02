@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 14.26 为你的StrBlob,StrBlobPtr,StrVec,Strings类定义下标运算符
  */
 #include <iostream>

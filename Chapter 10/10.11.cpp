@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 10.11 实现一个函数使一个序列没有重复元素,使用stable_sort代替sort
  * */
 #include <iostream>

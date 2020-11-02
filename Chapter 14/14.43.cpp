@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 14.43 使用标准库函数对象判断一个给定的int值是否被int容器中的所有元素整除
  */
 #include <iostream>

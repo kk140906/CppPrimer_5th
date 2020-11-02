@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 13.30 给类的值拷贝版本添加一个swap函数，同时在swap函数中打印标识信息
  * Exercise 13.31 给类定义一个< 运算符，并定义一个vector存储HasPtr,添加一些元素并执行sort;
  * */

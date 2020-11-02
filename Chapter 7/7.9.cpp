@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 7.9  添加打印和读取Person对象的操作
  */
 #include <iostream>

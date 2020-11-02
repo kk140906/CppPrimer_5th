@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 13.27 定义使用引用计数版本的HasPtr,
  * */
 #include <iostream>

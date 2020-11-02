@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 13.53 为HasPtr类实现一个拷贝赋值运算和一个移动赋值运算符
  */
 #include <iostream>

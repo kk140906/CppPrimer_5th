@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 7.27  给Screen类添加move,set,display操作
  * */
 #include <iostream>

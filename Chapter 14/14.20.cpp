@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 14.20 为你的Sales_data类定义加法和复合赋值运算符
  * Exercise 14.22 定义赋值运算符的一个新版本,使得我们可以把一个表示ISBN的string赋值给Sales_data对象
  */

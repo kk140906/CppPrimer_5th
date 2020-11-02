@@ -8,8 +8,6 @@
 #include <iterator>
 #include "../header/query_base.h"
 
-QueryHistoriesLogger *QueryHistoriesLogger::instance_ = nullptr;
-
 QueryHistoriesLogger *logger = QueryHistoriesLogger::CreatInstance();
 
 Query::Query(const std::string &word) {

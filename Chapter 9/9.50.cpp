@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.50 编写程序处理一个vector<string>,里面元素都是int类型数值或者double类型数值，计算vector中所有元素之和
  */
 #include <iostream>

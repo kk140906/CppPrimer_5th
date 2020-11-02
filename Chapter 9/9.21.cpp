@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.21 编写程序，从一个list<int>拷贝元素到deque中，偶数拷贝到一个deque，奇数拷贝到另一个deque中
  */
 #include <iostream>

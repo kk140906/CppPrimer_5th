@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.16 比较list<int> 和vector<int>的元素是否相等
  */
 #include <iostream>

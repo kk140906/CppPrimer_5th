@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.15 判断两个vector<int>，或者vector<string>的大小
  */
 #include <iostream>

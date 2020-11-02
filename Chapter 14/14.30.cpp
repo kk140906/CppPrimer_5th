@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 14.30 为你的StrBlobPtr分别添加解引用运算符和箭头运算符
  */
 #include <iostream>

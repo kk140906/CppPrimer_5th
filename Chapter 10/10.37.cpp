@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 10.37 给定一个包含10个元素的vector,把位置3到7的元素按照逆序拷贝到一个list中
  * */
 #include <iostream>

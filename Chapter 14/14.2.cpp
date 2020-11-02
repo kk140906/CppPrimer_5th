@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 14.2 为Sales_data编写重载的输入、输出、加法和复合赋值运算符；
  * Exercise 14.6 为Sales_data定义输出运算符;
  * Exercise 14.9 为Sales_data定义输入运算符;

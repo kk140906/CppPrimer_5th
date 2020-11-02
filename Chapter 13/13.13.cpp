@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 13.13 给类
  * struct X {
  *      X() {std::cout << "X()" << std::endl;}

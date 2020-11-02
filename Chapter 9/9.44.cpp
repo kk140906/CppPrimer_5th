@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.44 编写一个函数，接受三个string参数,oldVal,newVal,
  * 使用下标和replace函数将s中的oldVal替换为newVal,测试程序，用它替换通用的简写形式
  * 例如"tho" 替换 "though","thru" 替换"through"

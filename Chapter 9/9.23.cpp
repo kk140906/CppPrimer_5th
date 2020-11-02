@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.23 当容器大小为1时，其begin(),front(),end(),back()对应的值是什么
  * 9.24 分别使用at，下标，front和begin分别提取vector中的第一个元素，然后在一个空的vector中进行测试
  */

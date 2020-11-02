@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 13.39 仿照标准库容器vector编写自己版本的StrVec，包括自己版本的reverse,capacity,resize等
  * Exercise 13.40,为StrVec类添加一个构造函数，它接受一个initializer_list<string>参数
  * Exercise 13.43,使用for_each和lambda重写free函数

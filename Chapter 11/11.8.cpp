@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 11.8 在一个vector中保存不重复的单词
  * */
 #include <iostream>

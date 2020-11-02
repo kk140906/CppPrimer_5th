@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 10.34 使用reverse_iterator迭代器逆序打印一个vector
  * Exercise 10.35 使用普通迭代器逆序打印一个vector
  * */

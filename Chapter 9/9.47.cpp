@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.47 编写程序，首先查找string “ab2c3d7r4E6"中的每个数字字符，然后查找其中每个字母字符
  * 编写两个版本，第一个版本使用find_first_of函数，第二个版本使用find_first_not_of
  */

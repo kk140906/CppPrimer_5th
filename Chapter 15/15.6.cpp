@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 15.5 定义自己的Bulk_quote类
  * Exercise 15.6 将Quote和Bulk_quote对象传递给print_total函数，验证程序的正确性
  */

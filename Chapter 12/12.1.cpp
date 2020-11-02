@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 12.1-12.2 编写自己的StrBlob类，包含const版本的的front和back
  * */
 #include <iostream>

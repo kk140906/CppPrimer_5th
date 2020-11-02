@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 6.25 编写一个main函数，接收两个实参,并把两个实参连接成一个string对象输出
  */
 #include <iostream>

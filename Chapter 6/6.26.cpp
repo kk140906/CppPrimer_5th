@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 6.26 编写一个main函数，输出传递给main函数的所有参数
  */
 #include <iostream>

@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 7.4 编写一个名为Person的类，使其表示人员的姓名和地址，使用string对象保存这些信息
  */
 #include <iostream>

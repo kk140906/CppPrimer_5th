@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.17)
 project(CHAPTER6)
 set(CMAKE_CXX_STANDARD 14)
+add_executable(6.10 6.10.cpp)
+add_executable(6.17 6.17.cpp)
 add_executable(6.21 6.21.cpp)
 add_executable(6.22 6.22.cpp)
 add_executable(6.25 6.25.cpp)

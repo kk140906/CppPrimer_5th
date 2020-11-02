@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.25 erase接收两个迭代器的版本接收两个相同的迭代器或者接受尾后迭代器的结果
  */
 #include <iostream>

@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 6.21 编写一个函数，令其接受两个参数，一个int类型，一个是int * 类型，函数比较int类型和int * 所指的值，返回较大的那个
  */
 #include <iostream>

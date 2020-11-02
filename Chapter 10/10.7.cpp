@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 10.7
  * */
 #include <iostream>

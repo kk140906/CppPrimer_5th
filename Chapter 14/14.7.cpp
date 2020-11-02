@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 14.7 为Strings类定义一个输出运算符
  */
 #include <iostream>

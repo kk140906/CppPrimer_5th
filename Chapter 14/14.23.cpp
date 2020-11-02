@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 14.23 为你的StrVec类定义一个接受initializer_list的赋值运算符
  */
 #include <iostream>

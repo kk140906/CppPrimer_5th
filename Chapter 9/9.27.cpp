@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.27 查找并删除forward_list<int>中的奇数
  */
 #include <iostream>

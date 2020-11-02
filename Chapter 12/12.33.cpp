@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 12.33 在TextQueryResult类中添加名为begin和end的成员，返回一个迭代器，指向查询行号结果的set中的某个位置
  * 再添加一个名为get_file的成员，返回一个shared_ptr，指向TextQueryResult中包含文件所有内容的vector
  * */

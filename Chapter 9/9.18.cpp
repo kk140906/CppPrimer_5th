@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 9.18 编写程序，从标准输入读取string 蓄力，存入一个deque中，然后用迭代器打印deque的元素
  */
 #include <iostream>

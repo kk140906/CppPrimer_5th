@@ -1,4 +1,4 @@
-/*
+/**
  * Exercise 7.32 给Screen添加一个友元函数，该函数是WindowManager的成员函数，可以clear Screen的显示内容
  * */
 #include <iostream>
