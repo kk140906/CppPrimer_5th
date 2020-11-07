@@ -12,7 +12,7 @@
 #include "StrBlob.h"
 
 
-using continer = std::vector<std::string>;
+using contianer = std::vector<std::string>;
 using pos = std::size_t;
 
 class StrBlobPtr {
@@ -37,7 +37,7 @@ public:
 
     StrBlobPtr operator--(int inc);
 
-    std::string operator*();
+    std::string &operator*();
 
     StrBlobPtr operator+(int inc);
 
@@ -49,9 +49,9 @@ public:
 
 private:
     pos cur_pos;
-    std::weak_ptr<continer> wp_container;
+    std::weak_ptr<contianer> wp_container;
 
-    std::shared_ptr<continer> check(pos &position) const;
+    std::shared_ptr<contianer> check(pos &position) const;
 };
 
 

@@ -40,6 +40,17 @@ class TextQuery {
 public:
     TextQuery() = default;
 
+
+#ifdef Exercise1622
+#include "debug_delete.h"
+    TextQuery(const std::string &file) :
+            p_lineValues(new line_values,DebugDelete()),
+            p_queryValues(new query_values,DebugDelete()) {
+        read(file);
+        toDicts();
+    }
+#else
+
     TextQuery(const std::string &file) :
             p_lineValues(std::make_shared<line_values>()),
             p_queryValues(std::make_shared<query_values>()) {
@@ -47,12 +58,15 @@ public:
         toDicts();
     }
 
+#endif
+
     TextQueryResult query(std::string word);
 
 private:
 
     std::shared_ptr<line_values> p_lineValues;
     std::shared_ptr<query_values> p_queryValues;
+
     word_dicts wordDicts;
 
     void read(const std::string &file);

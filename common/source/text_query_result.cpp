@@ -2,6 +2,8 @@
 // Created by KK on 2020/10/31.
 //
 #include "../header/text_query_result.h"
+#include "../header/text_query.h"
+
 
 void TextQueryResult::print() {
     os << p_queryValues_->first << " occurs " << p_queryValues_->second.size() << " times" << std::endl;
@@ -31,3 +33,5 @@ TextQueryResult TextQuery::query(std::string word) {
     }
     return TextQueryResult(p_lineValues, p_queryValues, std::cout);
 }
+
+

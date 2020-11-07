@@ -20,19 +20,21 @@ class Screen {
     friend void WindowManager::clear(Screen &screen);
 
 public:
-    using screen_size = string::size_type;
+    using SizeType = string::size_type;
     using pos = string::size_type;
 
     Screen() = default;
 
-    Screen(const screen_size &height, const screen_size &width)
+    Screen(const SizeType &height, const SizeType &width)
             : height(height), width(width), contents(height * width, ' ') {}
 
     // 初始化成员变量也是一次成员对象初始化过程.例如contents，可以传递不同的参数使contents对象调用string的不同的构造函数。
-    Screen(const screen_size &height, const screen_size &width, const char &placeHolder)
+    Screen(const SizeType &height, const SizeType &width, const char &placeHolder)
             : height(height), width(width), contents(height * width, placeHolder) {}
 
     Screen &move(const pos col, const pos row) {
+        if (col > width) throw std::out_of_range("设置的列参数超过范围");
+        if (row > height) throw std::out_of_range("设置的行参数超过范围");
         cursor = col - 1 + row * width;
         return *this;
     }
@@ -52,18 +54,23 @@ public:
         return *this;
     }
 
-    screen_size getScreenSize() const;
+    std::pair<SizeType, SizeType> getScreenSize() const;
 
 private:
     string contents;
-    screen_size cursor;
-    screen_size height, width;
+    SizeType cursor;
+    SizeType height, width;
 
-    void do_display(ostream &os) const { os << contents; }
+    void do_display(ostream &os) const {
+        for (auto h = 0; h < height; ++h) {
+            for (auto w = 0; w < width; ++w) { os << contents[w + h * width]; }
+            os << std::endl;
+        }
+    }
 };
 
-Screen::screen_size Screen::getScreenSize() const {
-    return height * width;
+std::pair<Screen::SizeType, Screen::SizeType> Screen::getScreenSize() const {
+    return {height, width};
 }
 
 // clear函数的定义，必须在Screen类定义完成之后才能定义,因为函数定义的形参类型是Screen
@@ -74,11 +81,9 @@ void WindowManager::clear(Screen &screen) {
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-    const Screen cMyScreen(60, 30, '$');
-    Screen myScreen(50, 32, ' ');
-    myScreen.move(10, 0).set('G').display(cout);
-    cout << endl;
-    myScreen.display(cout);
+    const Screen cMyScreen(2, 3, '$');
+    Screen myScreen(5, 200, ' ');
+    myScreen.move(10, 2).set('G').display(cout);
     cout << endl;
     cMyScreen.display(cout);
     cout << endl;
@@ -87,7 +92,7 @@ int main() {
     windowManager.clear(myScreen);
     myScreen.display(cout);
     cout << endl << "清屏完成" << endl;
-    cout << "当前屏幕大小为:" << myScreen.getScreenSize() << endl;
+    cout << "当前屏幕大小为: " << myScreen.getScreenSize().first << " x " << myScreen.getScreenSize().second << endl;
     return 0;
 }
 

@@ -7,6 +7,11 @@
 
 #include <iostream>
 #include <string>
+#include <unordered_set>
+
+// 前置声明
+template<typename T_>
+struct hash;
 
 class Sales_data {
 
@@ -15,6 +20,12 @@ class Sales_data {
     friend std::istream &operator>>(std::istream &is, Sales_data &sd);
 
     friend Sales_data operator+(const Sales_data &lsd, const Sales_data &rsd);
+
+    friend bool operator==(const Sales_data &lsd, const Sales_data &rsd);
+
+    friend bool operator!=(const Sales_data &lsd, const Sales_data &rsd);
+
+    friend struct std::hash<Sales_data>;
 
 public:
     Sales_data() = default;
@@ -80,6 +91,14 @@ Sales_data operator+(const Sales_data &lsd, const Sales_data &rsd) {
     Sales_data sd = lsd;
     sd += rsd;
     return sd;
+}
+
+bool operator==(const Sales_data &lsd, const Sales_data &rsd) {
+    return lsd.book_isbn == rsd.book_isbn && lsd.sold_counts == rsd.sold_counts && lsd.sold_price == rsd.sold_price;
+}
+
+bool operator!=(const Sales_data &lsd, const Sales_data &rsd) {
+    return !(lsd == rsd);
 }
 
 #endif //C___PRIMER_EXERCISE_SALES_DATA_H

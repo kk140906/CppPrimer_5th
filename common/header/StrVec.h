@@ -55,6 +55,13 @@ public:
 
     void push_back(const content &str);
 
+    template<typename ... Args>
+    void emplace_back(Args &&...args) {
+        chk_n_alloc();
+        // 转发参数包到构造器，同时扩展模板参数包及函数参数包
+        alloc.construct(first_free++, std::forward<Args>(args)...);
+    }
+
     iter begin();
 
     iter end();

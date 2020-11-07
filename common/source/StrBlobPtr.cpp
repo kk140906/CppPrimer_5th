@@ -32,7 +32,7 @@ StrBlobPtr StrBlobPtr::operator--(int inc) {
     return cur_obj;
 }
 
-std::string StrBlobPtr::operator*() {
+std::string &StrBlobPtr::operator*() {
     auto sp_container = check(cur_pos);
     return (*sp_container)[cur_pos];
 }
@@ -53,7 +53,7 @@ StrBlobPtr StrBlobPtr::operator-(int inc) {
     return tmp;
 }
 
-std::shared_ptr<continer> StrBlobPtr::check(pos &position) const {
+std::shared_ptr<contianer> StrBlobPtr::check(pos &position) const {
 
     auto ret = wp_container.lock();
     if (!ret) {
