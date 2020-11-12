@@ -14,6 +14,8 @@
 #include <algorithm>
 #include <set>
 #include <memory>
+#include <tuple>
+
 
 // TODO: 头文件引入顺序问题分析
 #include "StrBlob.h"
@@ -36,10 +38,10 @@ class TextQuery {
 #endif
     using word_dicts = std::unordered_map<std::string, std::set<line_num>>;
     using query_values = std::pair<std::string, std::set<line_num>>;
+    using ResultTupleType = std::tuple<std::shared_ptr<line_values>, std::shared_ptr<query_values>>;
 
 public:
     TextQuery() = default;
-
 
 #ifdef Exercise1622
 #include "debug_delete.h"
@@ -61,6 +63,9 @@ public:
 #endif
 
     TextQueryResult query(std::string word);
+
+    ResultTupleType query_return_tuple(std::string word);
+
 
 private:
 

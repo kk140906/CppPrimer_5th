@@ -28,6 +28,7 @@ int main() {
 
     vector<int> vi{1, 34, 56, 7, 32, 5};
     vector<string> vs{"hello", "world"};
+
     Print(vi);
     Print(vs.begin(), vs.end());
     return 0;

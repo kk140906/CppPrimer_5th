@@ -30,6 +30,8 @@ class Sales_data {
 public:
     Sales_data() = default;
 
+    explicit Sales_data(std::string isbn) : book_isbn(std::move(isbn)), sold_counts(0), sold_price(0) {}
+
     Sales_data(std::string isbn, std::size_t sold_n, double price) :
             book_isbn(std::move(isbn)),
             sold_counts(sold_n),
@@ -39,6 +41,8 @@ public:
 
     Sales_data &operator+=(const Sales_data &rsd) {
         if (this->book_isbn == rsd.book_isbn) {
+            this->sold_price = (this->sold_counts * this->sold_price + rsd.sold_counts * rsd.sold_price) /
+                               static_cast<double>((this->sold_counts + rsd.sold_counts));
             this->sold_counts += rsd.sold_counts;
         } else {
             throw std::invalid_argument("两本书籍的ISBN号不匹配.");
@@ -80,9 +84,9 @@ std::istream &operator>>(std::istream &is, Sales_data &sd) {
 std::ostream &operator<<(std::ostream &os, const Sales_data &sd) {
     os << "ISBN: "
        << sd.book_isbn
-       << " 销售数量: "
+       << ", 销售数量: "
        << sd.sold_counts
-       << " 销售价格: "
+       << ", 销售价格: "
        << sd.sold_price;
     return os;
 }

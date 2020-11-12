@@ -28,3 +28,14 @@ void TextQuery::toDicts() {
         ++count;
     }
 }
+
+TextQuery::ResultTupleType TextQuery::query_return_tuple(std::string word) {
+    std::transform(word.begin(), word.end(), word.begin(), ::tolower);
+    auto iter_found = wordDicts.find(word);
+    if (iter_found != wordDicts.end()) {
+        p_queryValues = std::make_shared<query_values>(query_values(word, wordDicts[word]));
+    } else {
+        p_queryValues = std::make_shared<query_values>(query_values(word, std::set<line_num>()));
+    }
+    return ResultTupleType(p_lineValues, p_queryValues);
+}
