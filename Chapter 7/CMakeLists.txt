@@ -1,11 +1,10 @@
 cmake_minimum_required(VERSION 3.17)
 project(CHAPTER7)
 set(CMAKE_CXX_STANDARD 14)
-add_executable(7.1 7.1.cpp ../common/header/Sales_data.h)
-add_executable(7.4 7.4.cpp)
-add_executable(7.9 7.9.cpp)
-add_executable(7.15 7.15.cpp)
-add_executable(7.22 7.22.cpp)
-add_executable(7.23 7.23.cpp)
-add_executable(7.27 7.27.cpp)
-add_executable(7.32 7.32.cpp)
+
+# Retrieve all cpp file
+file(GLOB SOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} *.cpp)
+foreach(SRC IN LISTS SOURCES)
+    string(REGEX REPLACE "(^.+)\\..+$" \\1 TARGET_NAME ${SRC})
+    add_executable(${TARGET_NAME} ${SRC})
+endforeach()

@@ -7,18 +7,28 @@
 #include <regex>
 #include <windows.h>
 
-using namespace std;
+namespace A {
+    void print() {}
 
+    void print(const std::string &) {}
+}
+namespace B {
+    void print(int) {}
 
-int main(int argc, char **argv) {
-    auto t = GetTickCount();
-    string phone("sfsdfa3694512");
-    regex r("[[:alpha:]]+");
-    smatch sm;
-    regex_search(phone, sm, r);
-    cout << sm.format("$0") << endl;
-
-    return 0;
+    void print(double) {}
 }
 
+void print(int) {}
+
+using A::print;
+using namespace B;
+
+int main() {
+    print(); // A::print()
+    print("hello"); // A::print(const std::string &)
+    print(3.14); // B::print(double)
+    B::print(5); // B::print(int)
+    ::print(10); // ::print(int)
+    return 0;
+}
 

@@ -1,20 +1,20 @@
 cmake_minimum_required(VERSION 3.17)
 project(CHAPTER15)
 set(CMAKE_CXX_STANDARD 14)
-aux_source_directory(../common/source/ HEADER_CXX)
-add_executable(15.3 15.3.cpp ../common/header/Quote.h)
-add_executable(15.6 15.6.cpp ../common/header/Quote.h)
-add_executable(15.7 15.7.cpp ../common/header/Quote.h)
-add_executable(15.11 15.11.cpp ../common/header/Quote.h)
-add_executable(15.13 15.13.cpp)
-add_executable(15.15 15.15.cpp ../common/header/Quote.h)
-add_executable(15.20 15.20.cpp)
-add_executable(15.21 15.21.cpp)
-add_executable(15.23 15.23.cpp)
-add_executable(15.26 15.26.cpp ../common/header/Quote.h)
-add_executable(15.28 15.28.cpp ../common/header/Quote.h)
-add_executable(15.30 15.30.cpp ../common/header/Quote.h)
-add_executable(15.35 15.35.cpp ${HEADER_CXX})
-add_executable(15.41 15.41.cpp ${HEADER_CXX})
-add_executable(15.42 15.42.cpp ${HEADER_CXX})
 
+# add aux source directory and set relative target
+aux_source_directory(../common/source/ AUX_COMMON_SRC)
+set(AUX_COMMON_SRC_LIST 15.35 15.41 15.42)
+
+# Retrieve all cpp file
+file(GLOB SOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} *.cpp)
+
+
+foreach(SRC IN LISTS SOURCES)
+    string(REGEX REPLACE "(^.+)\\..+$" \\1 TARGET_NAME ${SRC})
+    if(${TARGET_NAME} IN_LIST AUX_COMMON_SRC_LIST)
+        add_executable(${TARGET_NAME} ${SRC} ${AUX_COMMON_SRC})
+    else()
+        add_executable(${TARGET_NAME} ${SRC})
+    endif()
+endforeach()

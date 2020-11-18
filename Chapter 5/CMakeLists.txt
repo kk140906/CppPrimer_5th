@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 3.17)
 project(CHAPTER5)
 set(CMAKE_CXX_STANDARD 14)
-add_executable(5.14 5.14.cpp)
-add_executable(5.19 5.19.cpp)
-add_executable(5.20 5.20.cpp)
-add_executable(5.21 5.21.cpp)
-add_executable(5.23 5.23.cpp)
+
+# Retrieve all cpp file
+file(GLOB SOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} *.cpp)
+foreach(SRC IN LISTS SOURCES)
+    string(REGEX REPLACE "(^.+)\\..+$" \\1 TARGET_NAME ${SRC})
+    add_executable(${TARGET_NAME} ${SRC})
+endforeach()
